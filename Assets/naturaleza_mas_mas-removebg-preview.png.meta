@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: b44725b6c69783c4090fc6f4fbf768df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4048080265712172619
+    second: naturaleza_mas_mas-removebg-preview_0
+  - first:
+      213: -1903181072528490738
+    second: naturaleza_mas_mas-removebg-preview_1
+  - first:
+      213: 6323227360259412226
+    second: naturaleza_mas_mas-removebg-preview_2
+  - first:
+      213: -265513516248993790
+    second: naturaleza_mas_mas-removebg-preview_3
+  - first:
+      213: 874404395543887663
+    second: naturaleza_mas_mas-removebg-preview_4
+  - first:
+      213: 1971822726742470678
+    second: naturaleza_mas_mas-removebg-preview_5
+  - first:
+      213: 9070077242321948770
+    second: naturaleza_mas_mas-removebg-preview_6
+  - first:
+      213: 7452894862150442455
+    second: naturaleza_mas_mas-removebg-preview_7
+  - first:
+      213: -432997918167114695
+    second: naturaleza_mas_mas-removebg-preview_8
+  - first:
+      213: -2142175544284184497
+    second: naturaleza_mas_mas-removebg-preview_9
+  - first:
+      213: 2630563546162508595
+    second: naturaleza_mas_mas-removebg-preview_10
+  - first:
+      213: 1581017597093868827
+    second: naturaleza_mas_mas-removebg-preview_11
+  - first:
+      213: 2068563639343286631
+    second: naturaleza_mas_mas-removebg-preview_12
+  - first:
+      213: 2946053441907511002
+    second: naturaleza_mas_mas-removebg-preview_13
+  - first:
+      213: 2092206211663359191
+    second: naturaleza_mas_mas-removebg-preview_14
+  - first:
+      213: 3813201479054088278
+    second: naturaleza_mas_mas-removebg-preview_15
+  - first:
+      213: -7992772540038628128
+    second: naturaleza_mas_mas-removebg-preview_16
+  - first:
+      213: 6510102546627196449
+    second: naturaleza_mas_mas-removebg-preview_17
+  - first:
+      213: 9135551462817120974
+    second: naturaleza_mas_mas-removebg-preview_18
+  - first:
+      213: -7523733643360829226
+    second: naturaleza_mas_mas-removebg-preview_19
+  - first:
+      213: -376108812250312475
+    second: naturaleza_mas_mas-removebg-preview_20
+  - first:
+      213: 5465554595443774594
+    second: naturaleza_mas_mas-removebg-preview_21
+  - first:
+      213: -7354898638091402034
+    second: naturaleza_mas_mas-removebg-preview_22
+  - first:
+      213: 2776218174848267317
+    second: naturaleza_mas_mas-removebg-preview_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 267
+        width: 82
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b105fb227452d7c0800000000000000
+      internalID: -4048080265712172619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 267
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f31b4e5ea8695e0800000000000000
+      internalID: -1903181072528490738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 267
+        width: 111
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2011b4248cd90c750800000000000000
+      internalID: 6323227360259412226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 267
+        width: 65
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200f9ec1dd4b05cf0800000000000000
+      internalID: -265513516248993790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 267
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ffe6a3a22822c00800000000000000
+      internalID: 874404395543887663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 267
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610f683a2525d5b10800000000000000
+      internalID: 1971822726742470678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 267
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26054f152336fdd70800000000000000
+      internalID: 9070077242321948770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 214
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd9fc6d3600e6760800000000000000
+      internalID: 7452894862150442455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 214
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c5a2300beadf9f0800000000000000
+      internalID: -432997918167114695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 214
+        width: 69
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40896431b67542e0800000000000000
+      internalID: -2142175544284184497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 136
+        width: 106
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333bb10ab93a18420800000000000000
+      internalID: 2630563546162508595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 136
+        width: 94
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15fb62c027e0f510800000000000000
+      internalID: 1581017597093868827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 136
+        width: 122
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76988569ba305bc10800000000000000
+      internalID: 2068563639343286631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 83
+        width: 100
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adec63e1ffb72e820800000000000000
+      internalID: 2946053441907511002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 83
+        width: 38
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc6f0be672090d10800000000000000
+      internalID: 2092206211663359191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 155
+        width: 65
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6585300ca863be430800000000000000
+      internalID: 3813201479054088278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 83
+        width: 108
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec308ce8b7f31190800000000000000
+      internalID: -7992772540038628128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 83
+        width: 120
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126741f26c7885a50800000000000000
+      internalID: 6510102546627196449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 83
+        width: 130
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2c38837aff7ce70800000000000000
+      internalID: 9135551462817120974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 19
+        width: 114
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d082d22d14569790800000000000000
+      internalID: -7523733643360829226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 19
+        width: 135
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e01de8270bc7caf0800000000000000
+      internalID: -376108812250312475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 19
+        width: 91
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2841ee162fc89db40800000000000000
+      internalID: 5465554595443774594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 19
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4ce8518a62ee990800000000000000
+      internalID: -7354898638091402034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza_mas_mas-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 19
+        width: 82
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53470d298bb178620800000000000000
+      internalID: 2776218174848267317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      naturaleza_mas_mas-removebg-preview_0: -4048080265712172619
+      naturaleza_mas_mas-removebg-preview_1: -1903181072528490738
+      naturaleza_mas_mas-removebg-preview_10: 2630563546162508595
+      naturaleza_mas_mas-removebg-preview_11: 1581017597093868827
+      naturaleza_mas_mas-removebg-preview_12: 2068563639343286631
+      naturaleza_mas_mas-removebg-preview_13: 2946053441907511002
+      naturaleza_mas_mas-removebg-preview_14: 2092206211663359191
+      naturaleza_mas_mas-removebg-preview_15: 3813201479054088278
+      naturaleza_mas_mas-removebg-preview_16: -7992772540038628128
+      naturaleza_mas_mas-removebg-preview_17: 6510102546627196449
+      naturaleza_mas_mas-removebg-preview_18: 9135551462817120974
+      naturaleza_mas_mas-removebg-preview_19: -7523733643360829226
+      naturaleza_mas_mas-removebg-preview_2: 6323227360259412226
+      naturaleza_mas_mas-removebg-preview_20: -376108812250312475
+      naturaleza_mas_mas-removebg-preview_21: 5465554595443774594
+      naturaleza_mas_mas-removebg-preview_22: -7354898638091402034
+      naturaleza_mas_mas-removebg-preview_23: 2776218174848267317
+      naturaleza_mas_mas-removebg-preview_3: -265513516248993790
+      naturaleza_mas_mas-removebg-preview_4: 874404395543887663
+      naturaleza_mas_mas-removebg-preview_5: 1971822726742470678
+      naturaleza_mas_mas-removebg-preview_6: 9070077242321948770
+      naturaleza_mas_mas-removebg-preview_7: 7452894862150442455
+      naturaleza_mas_mas-removebg-preview_8: -432997918167114695
+      naturaleza_mas_mas-removebg-preview_9: -2142175544284184497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
