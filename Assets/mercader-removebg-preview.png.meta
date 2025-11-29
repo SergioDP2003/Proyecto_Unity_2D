@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 9baa45547d93cf449b567995c148e78e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1771708541833968808
+    second: mercader-removebg-preview_0
+  - first:
+      213: -8574482344434920942
+    second: mercader-removebg-preview_1
+  - first:
+      213: -9047796317120395428
+    second: mercader-removebg-preview_2
+  - first:
+      213: -2129021011939155541
+    second: mercader-removebg-preview_3
+  - first:
+      213: -6851491904975277572
+    second: mercader-removebg-preview_4
+  - first:
+      213: 2884674757042284418
+    second: mercader-removebg-preview_5
+  - first:
+      213: -8781392093210768647
+    second: mercader-removebg-preview_6
+  - first:
+      213: -7730648666285456628
+    second: mercader-removebg-preview_7
+  - first:
+      213: 483362851384660505
+    second: mercader-removebg-preview_8
+  - first:
+      213: -6612373318891086642
+    second: mercader-removebg-preview_9
+  - first:
+      213: 3642722526107305618
+    second: mercader-removebg-preview_10
+  - first:
+      213: 5524914480011877713
+    second: mercader-removebg-preview_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mercader-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 78
+        width: 126
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8530676d770a967e0800000000000000
+      internalID: -1771708541833968808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 257
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212191fbcb1510980800000000000000
+      internalID: -8574482344434920942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 63
+        width: 158
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5783f5df25cf6280800000000000000
+      internalID: -9047796317120395428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 259
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba126007ba23472e0800000000000000
+      internalID: -2129021011939155541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 62
+        width: 114
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1fb76c96c9ae0a0800000000000000
+      internalID: -6851491904975277572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 58
+        width: 201
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287aa0a686c680820800000000000000
+      internalID: 2884674757042284418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 18
+        width: 77
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa8fb2ca6a322680800000000000000
+      internalID: -8781392093210768647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 26
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0345ba2ff737b490800000000000000
+      internalID: -7730648666285456628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 26
+        width: 84
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912176ec3ff35b600800000000000000
+      internalID: 483362851384660505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 26
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccd93510812c34a0800000000000000
+      internalID: -6612373318891086642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 26
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29680f766dc8d8230800000000000000
+      internalID: 3642722526107305618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercader-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 26
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d158382707cac40800000000000000
+      internalID: 5524914480011877713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mercader-removebg-preview_0: -1771708541833968808
+      mercader-removebg-preview_1: -8574482344434920942
+      mercader-removebg-preview_10: 3642722526107305618
+      mercader-removebg-preview_11: 5524914480011877713
+      mercader-removebg-preview_2: -9047796317120395428
+      mercader-removebg-preview_3: -2129021011939155541
+      mercader-removebg-preview_4: -6851491904975277572
+      mercader-removebg-preview_5: 2884674757042284418
+      mercader-removebg-preview_6: -8781392093210768647
+      mercader-removebg-preview_7: -7730648666285456628
+      mercader-removebg-preview_8: 483362851384660505
+      mercader-removebg-preview_9: -6612373318891086642
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

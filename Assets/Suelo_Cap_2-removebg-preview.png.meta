@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 268706eefcdc6a247b58e3f11e521ae9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3171520945359023093
+    second: Suelo_Cap_2-removebg-preview_0
+  - first:
+      213: -3137621632435144840
+    second: Suelo_Cap_2-removebg-preview_1
+  - first:
+      213: 1747977579372619783
+    second: Suelo_Cap_2-removebg-preview_2
+  - first:
+      213: 5990629791252264568
+    second: Suelo_Cap_2-removebg-preview_3
+  - first:
+      213: -8366461672584388252
+    second: Suelo_Cap_2-removebg-preview_4
+  - first:
+      213: -9154933021694211888
+    second: Suelo_Cap_2-removebg-preview_5
+  - first:
+      213: -3931671921941410622
+    second: Suelo_Cap_2-removebg-preview_6
+  - first:
+      213: 1620747983549112990
+    second: Suelo_Cap_2-removebg-preview_7
+  - first:
+      213: -1497471851835887018
+    second: Suelo_Cap_2-removebg-preview_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Suelo_Cap_2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 298
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8773f17cfbde474d0800000000000000
+      internalID: -3137621632435144840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suelo_Cap_2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 298
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461efaaaf6b54eb80800000000000000
+      internalID: -8366461672584388252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suelo_Cap_2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 248
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1d53573eb1fcb4690f8b19cc14efe5
+      internalID: 1641485816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bb2abe0c94723854bb33b6f252214598
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":50.0,"y":50.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Suelo_Cap_2-removebg-preview_0: -3171520945359023093
+      Suelo_Cap_2-removebg-preview_1: -3137621632435144840
+      Suelo_Cap_2-removebg-preview_10: -1618407894
+      Suelo_Cap_2-removebg-preview_11: 1641485816
+      Suelo_Cap_2-removebg-preview_12: 1665512326
+      Suelo_Cap_2-removebg-preview_13: -151868577
+      Suelo_Cap_2-removebg-preview_14: -77233938
+      Suelo_Cap_2-removebg-preview_15: -102754140
+      Suelo_Cap_2-removebg-preview_16: 881109373
+      Suelo_Cap_2-removebg-preview_17: 1159602155
+      Suelo_Cap_2-removebg-preview_18: -1448468615
+      Suelo_Cap_2-removebg-preview_19: 497108089
+      Suelo_Cap_2-removebg-preview_2: 1747977579372619783
+      Suelo_Cap_2-removebg-preview_20: 1180126590
+      Suelo_Cap_2-removebg-preview_21: 1621304986
+      Suelo_Cap_2-removebg-preview_22: -1242776562
+      Suelo_Cap_2-removebg-preview_23: -910350184
+      Suelo_Cap_2-removebg-preview_24: 60558885
+      Suelo_Cap_2-removebg-preview_25: -369737266
+      Suelo_Cap_2-removebg-preview_26: -1347465924
+      Suelo_Cap_2-removebg-preview_27: -1104156506
+      Suelo_Cap_2-removebg-preview_28: 812083731
+      Suelo_Cap_2-removebg-preview_29: -1648704902
+      Suelo_Cap_2-removebg-preview_3: 5990629791252264568
+      Suelo_Cap_2-removebg-preview_30: -575902413
+      Suelo_Cap_2-removebg-preview_31: 340091204
+      Suelo_Cap_2-removebg-preview_32: 1582758044
+      Suelo_Cap_2-removebg-preview_33: 1222542398
+      Suelo_Cap_2-removebg-preview_34: -709185413
+      Suelo_Cap_2-removebg-preview_35: -128109199
+      Suelo_Cap_2-removebg-preview_36: -860468782
+      Suelo_Cap_2-removebg-preview_37: 1065429052
+      Suelo_Cap_2-removebg-preview_38: 751926373
+      Suelo_Cap_2-removebg-preview_39: 645336284
+      Suelo_Cap_2-removebg-preview_4: -8366461672584388252
+      Suelo_Cap_2-removebg-preview_40: 2032447754
+      Suelo_Cap_2-removebg-preview_41: -2025751352
+      Suelo_Cap_2-removebg-preview_42: -920820447
+      Suelo_Cap_2-removebg-preview_43: 1026044893
+      Suelo_Cap_2-removebg-preview_44: -1938251574
+      Suelo_Cap_2-removebg-preview_45: -754499222
+      Suelo_Cap_2-removebg-preview_46: 612872336
+      Suelo_Cap_2-removebg-preview_47: -1373688250
+      Suelo_Cap_2-removebg-preview_48: -1897710714
+      Suelo_Cap_2-removebg-preview_49: 1641976882
+      Suelo_Cap_2-removebg-preview_5: -9154933021694211888
+      Suelo_Cap_2-removebg-preview_50: -445966743
+      Suelo_Cap_2-removebg-preview_51: -782969293
+      Suelo_Cap_2-removebg-preview_52: 1304775114
+      Suelo_Cap_2-removebg-preview_53: -1014784243
+      Suelo_Cap_2-removebg-preview_54: -1636689419
+      Suelo_Cap_2-removebg-preview_55: 550597099
+      Suelo_Cap_2-removebg-preview_56: 1988324911
+      Suelo_Cap_2-removebg-preview_57: -2112955533
+      Suelo_Cap_2-removebg-preview_6: -3931671921941410622
+      Suelo_Cap_2-removebg-preview_7: 1620747983549112990
+      Suelo_Cap_2-removebg-preview_8: -1497471851835887018
+      Suelo_Cap_2-removebg-preview_9: 739444837
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

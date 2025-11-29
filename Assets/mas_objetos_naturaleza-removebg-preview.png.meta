@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 9698d467e8ca59343b6453201aa3260e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4822672862673098933
+    second: mas_objetos_naturaleza-removebg-preview_0
+  - first:
+      213: 348328224009783201
+    second: mas_objetos_naturaleza-removebg-preview_1
+  - first:
+      213: 2166353008984083072
+    second: mas_objetos_naturaleza-removebg-preview_2
+  - first:
+      213: -3064702140166692876
+    second: mas_objetos_naturaleza-removebg-preview_3
+  - first:
+      213: 659643766494421948
+    second: mas_objetos_naturaleza-removebg-preview_4
+  - first:
+      213: -1023949372005565690
+    second: mas_objetos_naturaleza-removebg-preview_5
+  - first:
+      213: 3967089587104638818
+    second: mas_objetos_naturaleza-removebg-preview_6
+  - first:
+      213: 546072660345846808
+    second: mas_objetos_naturaleza-removebg-preview_7
+  - first:
+      213: -7759695577827541500
+    second: mas_objetos_naturaleza-removebg-preview_8
+  - first:
+      213: 9063052591299320336
+    second: mas_objetos_naturaleza-removebg-preview_9
+  - first:
+      213: 3340320284930712064
+    second: mas_objetos_naturaleza-removebg-preview_10
+  - first:
+      213: -1927628797661592875
+    second: mas_objetos_naturaleza-removebg-preview_11
+  - first:
+      213: 8694714357794220985
+    second: mas_objetos_naturaleza-removebg-preview_12
+  - first:
+      213: -3486967204249275133
+    second: mas_objetos_naturaleza-removebg-preview_13
+  - first:
+      213: 2657458928116668130
+    second: mas_objetos_naturaleza-removebg-preview_14
+  - first:
+      213: 6702146657281242730
+    second: mas_objetos_naturaleza-removebg-preview_15
+  - first:
+      213: -5459006672510707186
+    second: mas_objetos_naturaleza-removebg-preview_16
+  - first:
+      213: -2536262939318431021
+    second: mas_objetos_naturaleza-removebg-preview_17
+  - first:
+      213: -8974656720016170201
+    second: mas_objetos_naturaleza-removebg-preview_18
+  - first:
+      213: -7737591394401198732
+    second: mas_objetos_naturaleza-removebg-preview_19
+  - first:
+      213: -3114474658970636460
+    second: mas_objetos_naturaleza-removebg-preview_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 392
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b472470459c621db0800000000000000
+      internalID: -4822672862673098933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 389
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a788599ca285d400800000000000000
+      internalID: 348328224009783201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 381
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a4896759e601e10800000000000000
+      internalID: 2166353008984083072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 389
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff1cf814adf775d0800000000000000
+      internalID: -3064702140166692876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 264
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3633cb286872900800000000000000
+      internalID: 659643766494421948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 271
+        width: 31
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bbf95a8733ac1f0800000000000000
+      internalID: -1023949372005565690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 271
+        width: 31
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267e58ff5feed0730800000000000000
+      internalID: 3967089587104638818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 271
+        width: 31
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c777df03a049700800000000000000
+      internalID: 546072660345846808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 252
+        width: 47
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e7b6e0cf5005490800000000000000
+      internalID: -7759695577827541500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 260
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a541d405e66cd70800000000000000
+      internalID: 9063052591299320336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 143
+        width: 85
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002a353f9933b5e20800000000000000
+      internalID: 3340320284930712064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 124
+        width: 66
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2419052dfaf35e0800000000000000
+      internalID: -1927628797661592875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 131
+        width: 109
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb20df44a4d9a870800000000000000
+      internalID: 8694714357794220985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 127
+        width: 105
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305f84f6dcdcb9fc0800000000000000
+      internalID: -3486967204249275133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 36
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e69597b0d031e420800000000000000
+      internalID: 2657458928116668130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 66
+        width: 11
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66f1d310eec20d50800000000000000
+      internalID: 6702146657281242730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 10
+        width: 58
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a138aba56bd34b0800000000000000
+      internalID: -5459006672510707186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 6
+        width: 90
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2dfec5b426dccd0800000000000000
+      internalID: -2536262939318431021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 30
+        width: 89
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7232d5e434d937380800000000000000
+      internalID: -8974656720016170201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 21
+        width: 90
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dd89f4f9d8e9490800000000000000
+      internalID: -7737591394401198732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mas_objetos_naturaleza-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f69128cc927c4d0800000000000000
+      internalID: -3114474658970636460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mas_objetos_naturaleza-removebg-preview_0: -4822672862673098933
+      mas_objetos_naturaleza-removebg-preview_1: 348328224009783201
+      mas_objetos_naturaleza-removebg-preview_10: 3340320284930712064
+      mas_objetos_naturaleza-removebg-preview_11: -1927628797661592875
+      mas_objetos_naturaleza-removebg-preview_12: 8694714357794220985
+      mas_objetos_naturaleza-removebg-preview_13: -3486967204249275133
+      mas_objetos_naturaleza-removebg-preview_14: 2657458928116668130
+      mas_objetos_naturaleza-removebg-preview_15: 6702146657281242730
+      mas_objetos_naturaleza-removebg-preview_16: -5459006672510707186
+      mas_objetos_naturaleza-removebg-preview_17: -2536262939318431021
+      mas_objetos_naturaleza-removebg-preview_18: -8974656720016170201
+      mas_objetos_naturaleza-removebg-preview_19: -7737591394401198732
+      mas_objetos_naturaleza-removebg-preview_2: 2166353008984083072
+      mas_objetos_naturaleza-removebg-preview_20: -3114474658970636460
+      mas_objetos_naturaleza-removebg-preview_3: -3064702140166692876
+      mas_objetos_naturaleza-removebg-preview_4: 659643766494421948
+      mas_objetos_naturaleza-removebg-preview_5: -1023949372005565690
+      mas_objetos_naturaleza-removebg-preview_6: 3967089587104638818
+      mas_objetos_naturaleza-removebg-preview_7: 546072660345846808
+      mas_objetos_naturaleza-removebg-preview_8: -7759695577827541500
+      mas_objetos_naturaleza-removebg-preview_9: 9063052591299320336
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

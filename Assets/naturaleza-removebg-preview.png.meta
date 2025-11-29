@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: c9d07f2207bd0b542b572dffd2aaa7ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7753903302621358859
+    second: naturaleza-removebg-preview_0
+  - first:
+      213: -5336272276560564607
+    second: naturaleza-removebg-preview_1
+  - first:
+      213: -795931833643601072
+    second: naturaleza-removebg-preview_2
+  - first:
+      213: -2501129555125069580
+    second: naturaleza-removebg-preview_3
+  - first:
+      213: -5434864093638515356
+    second: naturaleza-removebg-preview_4
+  - first:
+      213: 594818003374141449
+    second: naturaleza-removebg-preview_5
+  - first:
+      213: -3770474019182701820
+    second: naturaleza-removebg-preview_6
+  - first:
+      213: -7603914506424961357
+    second: naturaleza-removebg-preview_7
+  - first:
+      213: 7178123476737772614
+    second: naturaleza-removebg-preview_8
+  - first:
+      213: -3578248525278266386
+    second: naturaleza-removebg-preview_9
+  - first:
+      213: -9042845603017688596
+    second: naturaleza-removebg-preview_10
+  - first:
+      213: 8728995785824658899
+    second: naturaleza-removebg-preview_11
+  - first:
+      213: 2522557359076622320
+    second: naturaleza-removebg-preview_12
+  - first:
+      213: 2092995691157628925
+    second: naturaleza-removebg-preview_13
+  - first:
+      213: -8701197318138775439
+    second: naturaleza-removebg-preview_14
+  - first:
+      213: 6331367137474289946
+    second: naturaleza-removebg-preview_15
+  - first:
+      213: -2916564864595668619
+    second: naturaleza-removebg-preview_16
+  - first:
+      213: -836155327986409199
+    second: naturaleza-removebg-preview_17
+  - first:
+      213: 8969958838503378627
+    second: naturaleza-removebg-preview_18
+  - first:
+      213: -7648562237690093502
+    second: naturaleza-removebg-preview_19
+  - first:
+      213: 943437802025949013
+    second: naturaleza-removebg-preview_20
+  - first:
+      213: 1553634706386644628
+    second: naturaleza-removebg-preview_21
+  - first:
+      213: 5029522053190768753
+    second: naturaleza-removebg-preview_22
+  - first:
+      213: 7106969451443209190
+    second: naturaleza-removebg-preview_23
+  - first:
+      213: 138963945089308902
+    second: naturaleza-removebg-preview_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 212
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b6977c8f56b9b60800000000000000
+      internalID: 7753903302621358859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 212
+        width: 50
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ea7d223a0c1f5b0800000000000000
+      internalID: -5336272276560564607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 212
+        width: 59
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0537f3ed63844f4f0800000000000000
+      internalID: -795931833643601072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 212
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f81a81dbe33a4dd0800000000000000
+      internalID: -2501129555125069580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 212
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465a628e6eb7394b0800000000000000
+      internalID: -5434864093638515356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 212
+        width: 69
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9007f1592d7314800800000000000000
+      internalID: 594818003374141449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 212
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40396cb3bd59cabc0800000000000000
+      internalID: -3770474019182701820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 212
+        width: 121
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6b91e2b08797690800000000000000
+      internalID: -7603914506424961357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 145
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cc8d05541dd9360800000000000000
+      internalID: 7178123476737772614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 145
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb39b4bce1875ec0800000000000000
+      internalID: -3578248525278266386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 145
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce97d69c5db518280800000000000000
+      internalID: -9042845603017688596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 145
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5e5f34b6f932970800000000000000
+      internalID: 8728995785824658899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 145
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff3f419d8ce10320800000000000000
+      internalID: 2522557359076622320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 145
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7afdfed70db0d10800000000000000
+      internalID: 2092995691157628925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 145
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178b1cbd3232f3780800000000000000
+      internalID: -8701197318138775439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 145
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11acb3ddd88dd750800000000000000
+      internalID: 6331367137474289946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 145
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571d36155b74687d0800000000000000
+      internalID: -2916564864595668619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 21
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111e15ac8216564f0800000000000000
+      internalID: -836155327986409199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 21
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce8edae902bb7c70800000000000000
+      internalID: 8969958838503378627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 21
+        width: 84
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240e30c2b29dad590800000000000000
+      internalID: -7648562237690093502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 21
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5579e61bea3c71d00800000000000000
+      internalID: 943437802025949013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 21
+        width: 80
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ee4e0b88e9f8510800000000000000
+      internalID: 1553634706386644628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 21
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178dd6ae8a37cc540800000000000000
+      internalID: 5029522053190768753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 21
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e343decf0701a260800000000000000
+      internalID: 7106969451443209190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naturaleza-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 21
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e892a7c8f2bde100800000000000000
+      internalID: 138963945089308902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      naturaleza-removebg-preview_0: 7753903302621358859
+      naturaleza-removebg-preview_1: -5336272276560564607
+      naturaleza-removebg-preview_10: -9042845603017688596
+      naturaleza-removebg-preview_11: 8728995785824658899
+      naturaleza-removebg-preview_12: 2522557359076622320
+      naturaleza-removebg-preview_13: 2092995691157628925
+      naturaleza-removebg-preview_14: -8701197318138775439
+      naturaleza-removebg-preview_15: 6331367137474289946
+      naturaleza-removebg-preview_16: -2916564864595668619
+      naturaleza-removebg-preview_17: -836155327986409199
+      naturaleza-removebg-preview_18: 8969958838503378627
+      naturaleza-removebg-preview_19: -7648562237690093502
+      naturaleza-removebg-preview_2: -795931833643601072
+      naturaleza-removebg-preview_20: 943437802025949013
+      naturaleza-removebg-preview_21: 1553634706386644628
+      naturaleza-removebg-preview_22: 5029522053190768753
+      naturaleza-removebg-preview_23: 7106969451443209190
+      naturaleza-removebg-preview_24: 138963945089308902
+      naturaleza-removebg-preview_3: -2501129555125069580
+      naturaleza-removebg-preview_4: -5434864093638515356
+      naturaleza-removebg-preview_5: 594818003374141449
+      naturaleza-removebg-preview_6: -3770474019182701820
+      naturaleza-removebg-preview_7: -7603914506424961357
+      naturaleza-removebg-preview_8: 7178123476737772614
+      naturaleza-removebg-preview_9: -3578248525278266386
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

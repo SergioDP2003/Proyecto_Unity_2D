@@ -1,0 +1,313 @@
+fileFormatVersion: 2
+guid: baa24c303c2beff409ea6cef017d20e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7952890841548006965
+    second: tileset_agua-removebg-preview_0
+  - first:
+      213: 350992124503767775
+    second: tileset_agua-removebg-preview_1
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset_agua-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 243
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc9ab7e1e27a354d9a8a8547ea0b4c4
+      internalID: 626718367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_agua-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 193
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d57c0be65f1884384c4af3fc8d5144
+      internalID: -1279300875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_agua-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aab79d4fcc8921428311279d8b50a5d
+      internalID: 1184698784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_agua-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 93
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efde65c1cee1a1e488c671de42ec582b
+      internalID: -2036505434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_agua-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 43
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b21b885ec398374a9c147964c0d22af
+      internalID: 1343317744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 759bf8699a1071740b58cf833ea0d366
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":50.0,"y":50.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      tileset_agua-removebg-preview_0: 7952890841548006965
+      tileset_agua-removebg-preview_1: 350992124503767775
+      tileset_agua-removebg-preview_10: -1998862969
+      tileset_agua-removebg-preview_11: -222511926
+      tileset_agua-removebg-preview_12: 1427814199
+      tileset_agua-removebg-preview_13: 597387026
+      tileset_agua-removebg-preview_14: -840643086
+      tileset_agua-removebg-preview_15: -285660292
+      tileset_agua-removebg-preview_16: 626718367
+      tileset_agua-removebg-preview_17: -668453980
+      tileset_agua-removebg-preview_18: -1446685740
+      tileset_agua-removebg-preview_19: 1631787100
+      tileset_agua-removebg-preview_2: -1456422603
+      tileset_agua-removebg-preview_20: 1231658337
+      tileset_agua-removebg-preview_21: 1132960920
+      tileset_agua-removebg-preview_22: 975999903
+      tileset_agua-removebg-preview_23: -2064418044
+      tileset_agua-removebg-preview_24: -1442883308
+      tileset_agua-removebg-preview_25: -312724721
+      tileset_agua-removebg-preview_26: 2004461070
+      tileset_agua-removebg-preview_27: 1448947532
+      tileset_agua-removebg-preview_28: -2016757368
+      tileset_agua-removebg-preview_29: -1279300875
+      tileset_agua-removebg-preview_3: 825733727
+      tileset_agua-removebg-preview_30: 1902601532
+      tileset_agua-removebg-preview_31: -423068049
+      tileset_agua-removebg-preview_32: -1649182552
+      tileset_agua-removebg-preview_33: 803433834
+      tileset_agua-removebg-preview_34: -1132990496
+      tileset_agua-removebg-preview_35: 1772837461
+      tileset_agua-removebg-preview_36: 1991885038
+      tileset_agua-removebg-preview_37: -1319462905
+      tileset_agua-removebg-preview_38: -1183610807
+      tileset_agua-removebg-preview_39: -1545268646
+      tileset_agua-removebg-preview_4: -1901421912
+      tileset_agua-removebg-preview_40: 1904020183
+      tileset_agua-removebg-preview_41: -1727054666
+      tileset_agua-removebg-preview_42: 1184698784
+      tileset_agua-removebg-preview_43: 1120916728
+      tileset_agua-removebg-preview_44: -1116789920
+      tileset_agua-removebg-preview_45: 1047786166
+      tileset_agua-removebg-preview_46: 2002309499
+      tileset_agua-removebg-preview_47: -297540000
+      tileset_agua-removebg-preview_48: 1093950190
+      tileset_agua-removebg-preview_49: -1204722335
+      tileset_agua-removebg-preview_5: 117045160
+      tileset_agua-removebg-preview_50: 664910736
+      tileset_agua-removebg-preview_51: -2030738855
+      tileset_agua-removebg-preview_52: -1005433926
+      tileset_agua-removebg-preview_53: 405300016
+      tileset_agua-removebg-preview_54: -1475325760
+      tileset_agua-removebg-preview_55: -2036505434
+      tileset_agua-removebg-preview_56: -921949407
+      tileset_agua-removebg-preview_57: 1259158716
+      tileset_agua-removebg-preview_58: -661566998
+      tileset_agua-removebg-preview_59: -567916179
+      tileset_agua-removebg-preview_6: -1667205607
+      tileset_agua-removebg-preview_60: -936968783
+      tileset_agua-removebg-preview_61: -913710710
+      tileset_agua-removebg-preview_62: 39694633
+      tileset_agua-removebg-preview_63: 1213282924
+      tileset_agua-removebg-preview_64: 272543157
+      tileset_agua-removebg-preview_65: -835005951
+      tileset_agua-removebg-preview_66: 585216998
+      tileset_agua-removebg-preview_67: -1837945549
+      tileset_agua-removebg-preview_68: 1343317744
+      tileset_agua-removebg-preview_69: -152447341
+      tileset_agua-removebg-preview_7: -1720454692
+      tileset_agua-removebg-preview_70: 598837601
+      tileset_agua-removebg-preview_71: -1637786926
+      tileset_agua-removebg-preview_72: 503710125
+      tileset_agua-removebg-preview_73: 865462619
+      tileset_agua-removebg-preview_74: 1667346515
+      tileset_agua-removebg-preview_75: 847368406
+      tileset_agua-removebg-preview_76: 1263145680
+      tileset_agua-removebg-preview_77: -1993446497
+      tileset_agua-removebg-preview_8: 1710468005
+      tileset_agua-removebg-preview_9: 1708266593
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
