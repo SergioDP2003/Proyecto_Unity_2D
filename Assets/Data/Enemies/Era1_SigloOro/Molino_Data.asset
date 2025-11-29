@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UnitData
   unitName: Gigante Briaero
   description: "\xA1Mueve sus largos brazos impulsados por magia negra!"
+  challengeDialogue: 
+  realityDialogue: 
   unitSprite: {fileID: -1212505792752555601, guid: c0359072c8137b8478f685e838c35d8c, type: 3}
+  defeatedSprite: {fileID: -774584036850237525, guid: 19c75bdc498187149b1cfd327f9e81c6, type: 3}
+  realitySprite: {fileID: -7098231435160314019, guid: 88066e52d72d0c34393ee477fcc0238c, type: 3}
   backgroundImage: {fileID: 6287859997713561868, guid: 700155d6ee3f5dd478e90e2ea4c0743d, type: 3}
-  enemySprite: {fileID: -722195165795540641, guid: afafba973ef870d459db4732aab11d22, type: 3}
-  interfaz: {fileID: 0}
   maxHP: 350
   damage: 30
   speed: 5

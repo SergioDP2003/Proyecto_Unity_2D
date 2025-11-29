@@ -1,5 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
+using UnityEngine.UI; 
+using TMPro;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 
@@ -8,7 +11,8 @@ public class TurnManager : MonoBehaviour
     public BattleState state;
 
     [Header("ESCENARIO Y UI")]
-    public GameObject backgroundObject;
+    public GameObject backgroundObject;        // El fondo normal de batalla
+    public GameObject backgroundRealityObject; // <--- NUEVO: El fondo de "Realidad" (Background2)
     public BattleHUD playerHUD;
     public BattleHUD enemyHUD;
 
@@ -20,55 +24,57 @@ public class TurnManager : MonoBehaviour
 
     UnitStats playerUnit;
     UnitStats enemyUnit;
+    
+    private GameObject enemyGO;
+    private SpriteRenderer enemyRenderer;
 
-    // Variable para controlar el tiempo de lectura de los mensajes
-    private float textDelay = 2.5f; 
+    private float textDelay = 2.5f;
 
     void Start()
     {
+        // Seguridad extra: Aseguramos que el fondo de realidad empieza apagado
+        if (backgroundRealityObject != null)
+        {
+            backgroundRealityObject.SetActive(false);
+        }
+
         state = BattleState.START;
         StartCoroutine(SetupBattle());
     }
 
-   IEnumerator SetupBattle()
+    IEnumerator SetupBattle()
     {
-        // (Esta parte inicial de crear personajes es IGUAL que antes)
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGO.GetComponent<UnitStats>();
-        GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
-        enemyUnit = enemyGO.GetComponent<UnitStats>();
 
-        if (GameLevel.enemyToFight != null) enemyUnit.characterData = GameLevel.enemyToFight;
+        enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
+        enemyUnit = enemyGO.GetComponent<UnitStats>();
+        enemyRenderer = enemyGO.GetComponent<SpriteRenderer>();
+
+        if (GameLevel.enemyToFight != null)
+        {
+            enemyUnit.characterData = GameLevel.enemyToFight;
+        }
         enemyUnit.LoadStatsFromData();
 
-        // --- AQUÍ ESTÁ EL CAMBIO DEL FONDO ---
-        // Verificamos que tenemos el objeto fondo y que el enemigo tiene imagen de fondo
-        if (backgroundObject != null && enemyUnit.characterData.backgroundImage != null)
+        // Configurar Fondo Inicial (El de batalla)
+        if (backgroundObject != null && enemyUnit.characterData != null && enemyUnit.characterData.backgroundImage != null)
         {
-            // 1. Buscamos el script mágico 'AutoScaler' en el objeto del fondo
             AutoScaler scaler = backgroundObject.GetComponent<AutoScaler>();
-
-            if (scaler != null)
-            {
-                // 2. Si existe, le pasamos la imagen y dejamos que él calcule el tamaño
-                scaler.SetBackground(enemyUnit.characterData.backgroundImage);
-            }
-            else
-            {
-                // Aviso de seguridad por si se te olvidó poner el script en Unity
-                Debug.LogWarning("¡Cuidado! El objeto 'Background' no tiene el componente 'AutoScaler' asignado.");
-            }
+            if (scaler != null) scaler.SetBackground(enemyUnit.characterData.backgroundImage);
         }
-        // ------------------------------------
 
         if (playerHUD != null) playerHUD.SetHUD(playerUnit, this);
         if (enemyHUD != null) enemyHUD.SetHUD(enemyUnit);
 
-        // (El resto sigue IGUAL que antes)
-        // Usamos el panel de diálogo para anunciar el inicio
+        // NARRATIVA INICIAL
         yield return StartCoroutine(ShowDialogueSequence($"¡{playerUnit.unitName} se enfrenta a {enemyUnit.unitName}!"));
+        
+        if (!string.IsNullOrEmpty(enemyUnit.characterData.challengeDialogue))
+        {
+             yield return StartCoroutine(ShowDialogueSequence($"{enemyUnit.unitName}: \"{enemyUnit.characterData.challengeDialogue}\""));
+        }
 
-        // Decidir turnos y empezar la secuencia correspondiente
         if (playerUnit.speed >= enemyUnit.speed)
         {
             state = BattleState.PLAYERTURN;
@@ -80,32 +86,20 @@ public class TurnManager : MonoBehaviour
             StartCoroutine(EnemyTurnRoutine());
         }
     }
-    // --- NUEVA CORRUTINA: SECUENCIA DEL TURNO DEL JUGADOR ---
+
     IEnumerator PlayerTurnRoutine()
     {
-        // 1. Mostrar mensaje inicial
         yield return StartCoroutine(ShowDialogueSequence("Te toca atacar, elige un movimiento..."));
-
-        // 2. Mostrar botones
         if (playerHUD != null) playerHUD.SetMenuActive(true);
-        
-        // El juego se queda aquí esperando a que pulses un botón.
-        // Cuando pulsas, el botón llama a 'OnMoveSelected'
     }
 
-    // Esta función la llaman los botones al hacer clic
     public void OnMoveSelected(MoveData moveByIndex)
     {
         if (state != BattleState.PLAYERTURN) return;
-        
-        // 3. Ocultar botones inmediatamente
         if (playerHUD != null) playerHUD.SetMenuActive(false);
-
-        // 4. Iniciar la secuencia de ataque
         StartCoroutine(ExecutePlayerMove(moveByIndex));
     }
 
-    // --- SECUENCIA DE ATAQUE DEL JUGADOR (Modificada con diálogos) ---
     IEnumerator ExecutePlayerMove(MoveData move)
     {
         bool hit = CheckAccuracy(move.accuracy);
@@ -115,39 +109,31 @@ public class TurnManager : MonoBehaviour
         {
             bool isDead = enemyUnit.TakeDamage(move.baseDamage);
             if (enemyHUD != null) enemyHUD.SetHP(enemyUnit.currentHP);
-            // Construimos el mensaje de éxito
-            resultMessage = $"¡{playerUnit.unitName} usa {move.moveName} y acierta! Causa {move.baseDamage} de daño.";
             
-            // Mostramos el resultado y esperamos a que se lea
+            resultMessage = $"¡{playerUnit.unitName} usa {move.moveName} y acierta! Causa {move.baseDamage} de daño.";
             yield return StartCoroutine(ShowDialogueSequence(resultMessage));
 
-            if (isDead) {
+            if (isDead)
+            {
                 state = BattleState.WON;
-                EndBattle();
-                yield break;
+                StartCoroutine(VictorySequence());
+                yield break; 
             }
         }
         else
         {
-            // Construimos el mensaje de fallo
             resultMessage = $"¡{playerUnit.unitName} intenta usar {move.moveName}, pero falla estrepitosamente!";
-            // Mostramos el resultado y esperamos
             yield return StartCoroutine(ShowDialogueSequence(resultMessage));
         }
 
-        // Cambio de turno
         state = BattleState.ENEMYTURN;
         StartCoroutine(EnemyTurnRoutine());
     }
 
-
-    // --- SECUENCIA DEL TURNO DEL ENEMIGO (Modificada con diálogos) ---
     IEnumerator EnemyTurnRoutine()
     {
-        // 1. Anunciar turno enemigo
         yield return StartCoroutine(ShowDialogueSequence($"Turno de {enemyUnit.unitName}..."));
 
-        // IA: Elegir movimiento
         MoveData[] enemyMoves = enemyUnit.characterData.knownMoves;
         if (enemyMoves != null && enemyMoves.Length > 0)
         {
@@ -159,51 +145,100 @@ public class TurnManager : MonoBehaviour
             {
                 bool isDead = playerUnit.TakeDamage(selectedMove.baseDamage);
                 if (playerHUD != null) playerHUD.SetHP(playerUnit.currentHP);
-                resultMessage = $"¡{enemyUnit.unitName} usa {selectedMove.moveName}! Te hace {selectedMove.baseDamage} de daño.";
                 
+                resultMessage = $"¡{enemyUnit.unitName} usa {selectedMove.moveName}! Te hace {selectedMove.baseDamage} de daño.";
                 yield return StartCoroutine(ShowDialogueSequence(resultMessage));
 
-                if (isDead) {
+                if (isDead)
+                {
                     state = BattleState.LOST;
-                    EndBattle();
+                    EndBattle(); 
                     yield break;
                 }
             }
             else
             {
-                 resultMessage = $"¡{enemyUnit.unitName} usa {selectedMove.moveName}, pero falla!";
-                 yield return StartCoroutine(ShowDialogueSequence(resultMessage));
+                resultMessage = $"¡{enemyUnit.unitName} usa {selectedMove.moveName}, pero falla!";
+                yield return StartCoroutine(ShowDialogueSequence(resultMessage));
             }
         }
         else
         {
-             // Si el enemigo no tiene ataques configurados
-             yield return StartCoroutine(ShowDialogueSequence($"{enemyUnit.unitName} no sabe qué hacer y pasa turno."));
+            yield return StartCoroutine(ShowDialogueSequence($"{enemyUnit.unitName} no sabe qué hacer y pasa turno."));
         }
 
-        // Volvemos al turno del jugador
         state = BattleState.PLAYERTURN;
         StartCoroutine(PlayerTurnRoutine());
     }
 
-    // --- HELPER: Corrutina maestra para mostrar diálogos y esperar ---
-    // Esta función se encarga de abrir el panel, poner el texto, esperar y cerrarlo.
+    // --- CORRUTINA ACTUALIZADA PARA USAR EL SEGUNDO FONDO ---
+    IEnumerator VictorySequence()
+    {
+        // FASE 1: El gigante cae
+        if (enemyUnit.characterData.defeatedSprite != null && enemyRenderer != null)
+        {
+            enemyRenderer.sprite = enemyUnit.characterData.defeatedSprite;
+        }
+        yield return StartCoroutine(ShowDialogueSequence($"¡Has derrotado a {enemyUnit.unitName}!"));
+
+        // Pausa dramática
+        yield return new WaitForSeconds(1f);
+
+        // FASE 2: LIMPIEZA DE PANTALLA (UI y Enemigo)
+        if (enemyGO != null) enemyGO.SetActive(false);
+        if (enemyHUD != null) enemyHUD.gameObject.SetActive(false);
+
+        if (playerHUD != null)
+        {
+            playerHUD.SetMenuActive(false);
+            if (playerHUD.hpSlider != null) playerHUD.hpSlider.gameObject.SetActive(false);
+            if (playerHUD.nameText != null) playerHUD.nameText.gameObject.SetActive(false);
+        }
+
+        // --- FASE 3: LA REVELACIÓN (Activamos el segundo fondo) ---
+        
+        // CAMBIO AQUÍ: Simplemente encendemos el objeto que ya tiene la imagen correcta
+        if (backgroundRealityObject != null)
+        {
+            backgroundRealityObject.SetActive(true);
+        }
+        // (Como está en una capa superior, tapará al anterior automáticamente)
+
+        // Pequeña pausa para asimilar el nuevo fondo antes del texto
+        yield return new WaitForSeconds(0.5f);
+
+        // Diálogo final de realidad
+        string finalReflexion = !string.IsNullOrEmpty(enemyUnit.characterData.realityDialogue) 
+            ? enemyUnit.characterData.realityDialogue 
+            : "No eran gigantes... solo era mi imaginación.";
+            
+        yield return StartCoroutine(ShowDialogueSequence(finalReflexion));
+
+        // FASE 4: Fin real
+        Debug.Log("COMBATE TERMINADO - Cargando mapa...");
+        // SceneManager.LoadScene("TuEscenaDeMapa"); 
+    }
+
     IEnumerator ShowDialogueSequence(string message)
     {
-        // Usamos el HUD del jugador para mostrar los mensajes globales
         if (playerHUD != null)
         {
             playerHUD.ShowDialogue(message);
-            // Esperamos X segundos para que el jugador lea
             yield return new WaitForSeconds(textDelay);
-            // Ocultamos el panel
             playerHUD.SetDialogueActive(false);
-            // Pequeña pausa extra después de cerrar el panel para que no sea brusco
             yield return new WaitForSeconds(0.5f);
         }
     }
 
-    // (CheckAccuracy y EndBattle siguen IGUAL que antes, no hace falta cambiarlos)
-    bool CheckAccuracy(int accuracy) { /* ... */ return Random.Range(1, 101) <= accuracy; }
-    void EndBattle() { /* ... */ }
+    bool CheckAccuracy(int accuracy) { return Random.Range(1, 101) <= accuracy; }
+
+    void EndBattle()
+    {
+        if (state == BattleState.LOST)
+        {
+            Debug.Log("DERROTA...");
+            StartCoroutine(ShowDialogueSequence("Don Quijote ha caído vencido..."));
+            // SceneManager.LoadScene("MenuPrincipal");
+        }
+    }
 }
