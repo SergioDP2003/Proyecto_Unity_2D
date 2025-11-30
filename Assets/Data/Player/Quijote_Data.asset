@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdfbb70f0c26b044d9066c40612b1985, type: 3}
+  m_Name: Quijote_Data
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Don Quijote
+  description: El Caballero de la Triste Figura. Su locura es su mayor fuerza.
+  unitSprite: {fileID: -2760222495937360839, guid: 153f791a142460a448f9c6d1c8d647ee, type: 3}
+  backgroundImage: {fileID: 0}
+  enemySprite: {fileID: 0}
+  interfaz: {fileID: 0}
+  maxHP: 897
+  damage: 150
+  speed: 20
+  knownMoves:
+  - {fileID: 11400000, guid: e75f87d6ccabe7d489561b9e64cabc4b, type: 2}
+  - {fileID: 11400000, guid: 4ba39df49d1e27142b4daa5e90ef6f57, type: 2}
+  - {fileID: 11400000, guid: e1483863c5bc52b4f95b8e6310f41707, type: 2}
+  - {fileID: 11400000, guid: 3e26aa1c6d2400245a8fae31577b97b8, type: 2}

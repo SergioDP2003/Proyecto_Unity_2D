@@ -8774,6 +8774,7 @@ GameObject:
   - component: {fileID: 942025726}
   - component: {fileID: 942025725}
   - component: {fileID: 942025724}
+  - component: {fileID: 942025727}
   m_Layer: 0
   m_Name: molino-removebg-preview (3)_0 (3)
   m_TagString: Untagged
@@ -8811,7 +8812,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -8900,6 +8901,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &942025727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942025723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1c39be5fe7ec643927a825cf89565f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
+  sceneToLoadName: Combate_Molino
 --- !u!1 &947826608
 GameObject:
   m_ObjectHideFlags: 0
@@ -11624,7 +11638,7 @@ GameObject:
   - component: {fileID: 1446391333}
   m_Layer: 0
   m_Name: Personaje
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

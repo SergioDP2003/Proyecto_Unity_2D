@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdfbb70f0c26b044d9066c40612b1985, type: 3}
+  m_Name: Oveja_Data
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Pastor y oveja
+  description: "Balidos que suenan a gritos de guerra... para quien quiera o\xEDrlos."
+  unitSprite: {fileID: -5924174937276922395, guid: f50854e358719624297c3cfae69792af, type: 3}
+  backgroundImage: {fileID: -1695728431273068566, guid: f0bdfd59fdad9b344bf1e8ac76aad498, type: 3}
+  enemySprite: {fileID: -5924174937276922395, guid: f50854e358719624297c3cfae69792af, type: 3}
+  interfaz: {fileID: 0}
+  maxHP: 40
+  damage: 5
+  speed: 8
+  knownMoves:
+  - {fileID: 11400000, guid: b1a2d5121773b094499d1a9bfe5102d1, type: 2}
+  - {fileID: 11400000, guid: b4ae7d47b6d0c2f41a1daa8d89da792f, type: 2}
+  - {fileID: 11400000, guid: 7c61460542fab464086c40cc35604fca, type: 2}
+  - {fileID: 11400000, guid: 3bcf5cc2c4cc47542bfe992b9708909a, type: 2}
