@@ -15,6 +15,13 @@ EditorBuildSettings:
     path: Assets/Scenes/DialogueCampfire.unity
     guid: 6ef5e383d1499fa4bb40968d0f086b7e
   - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Scenes/MainMenu.unity
+    guid: a47b4b1b708929840a0931b1955705e1
+  - enabled: 1
+    path: Assets/Scenes/HomeScene.unity
+    guid: 21f7616457dab574b810af910748c2d9
+=======
     path: Assets/Scenes/Cap2Background.unity
     guid: 5f1cd449d2be3574887c71cd7d1fd84c
   - enabled: 1
@@ -23,6 +30,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Combate_Molino.unity
     guid: 43d8880500f01d54aac77bf09d8c40cf
+>>>>>>> origin/dev
   - enabled: 1
     path: Assets/Scenes/DialogueFinal.unity
     guid: 1cd5823015fc2a745be32b684cb3aeab

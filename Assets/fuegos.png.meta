@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 28023001f3ac28f4698652618f3ce18b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2422645321285990781
+    second: fuegos_0
+  - first:
+      213: 3267246868494435605
+    second: fuegos_1
+  - first:
+      213: 7407968823948411387
+    second: fuegos_2
+  - first:
+      213: -8493215984020939933
+    second: fuegos_3
+  - first:
+      213: 8541926494631795927
+    second: fuegos_4
+  - first:
+      213: 7531927123912312625
+    second: fuegos_5
+  - first:
+      213: 600140098572529824
+    second: fuegos_6
+  - first:
+      213: -7220361754133812941
+    second: fuegos_7
+  - first:
+      213: -5640128181787758153
+    second: fuegos_8
+  - first:
+      213: -158800389916367568
+    second: fuegos_9
+  - first:
+      213: 4823835517579803355
+    second: fuegos_10
+  - first:
+      213: -8461098334730954977
+    second: fuegos_11
+  - first:
+      213: -7351194365422180838
+    second: fuegos_12
+  - first:
+      213: 8994768702079458953
+    second: fuegos_13
+  - first:
+      213: 879698174295283109
+    second: fuegos_14
+  - first:
+      213: 709145328006742367
+    second: fuegos_15
+  - first:
+      213: -6437322082031115038
+    second: fuegos_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fuegos_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 26
+        width: 142
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7973008517fe9120800000000000000
+      internalID: 2422645321285990781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 210
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5154e1e57b7975d20800000000000000
+      internalID: 3267246868494435605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 7
+        width: 94
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf10d9275646ec660800000000000000
+      internalID: 7407968823948411387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_3
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 171
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b13cfbf09022a80800000000000000
+      internalID: -8493215984020939933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 208
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc960ac3e40b8670800000000000000
+      internalID: 8541926494631795927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 180
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1374ce630d7c68860800000000000000
+      internalID: 7531927123912312625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_6
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 187
+        width: 119
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a032ee6d30245800800000000000000
+      internalID: 600140098572529824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 38
+        width: 67
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339a90f5d3f1ccb90800000000000000
+      internalID: -7220361754133812941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 188
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1fed42d4d3ab1b0800000000000000
+      internalID: -5640128181787758153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 38
+        width: 72
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03567d003e3dbcdf0800000000000000
+      internalID: -158800389916367568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 180
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdab14078d4b1f240800000000000000
+      internalID: 4823835517579803355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_11
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 115
+        width: 27
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1756b4b4e3249a80800000000000000
+      internalID: -8461098334730954977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_12
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 93
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1668264caf4bf990800000000000000
+      internalID: -7351194365422180838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 0
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e5f3c6a76d3dc70800000000000000
+      internalID: 8994768702079458953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_14
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 107
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a51e6424d0553c00800000000000000
+      internalID: 879698174295283109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_15
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 83
+        width: 30
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5148f92be367d900800000000000000
+      internalID: 709145328006742367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuegos_16
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 3
+        width: 125
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4e1cb3ca90aa6a0800000000000000
+      internalID: -6437322082031115038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fuegos_0: 2422645321285990781
+      fuegos_1: 3267246868494435605
+      fuegos_10: 4823835517579803355
+      fuegos_11: -8461098334730954977
+      fuegos_12: -7351194365422180838
+      fuegos_13: 8994768702079458953
+      fuegos_14: 879698174295283109
+      fuegos_15: 709145328006742367
+      fuegos_16: -6437322082031115038
+      fuegos_2: 7407968823948411387
+      fuegos_3: -8493215984020939933
+      fuegos_4: 8541926494631795927
+      fuegos_5: 7531927123912312625
+      fuegos_6: 600140098572529824
+      fuegos_7: -7220361754133812941
+      fuegos_8: -5640128181787758153
+      fuegos_9: -158800389916367568
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
