@@ -26,4 +26,8 @@ public class UnitData : ScriptableObject
     
     [Header("Libro de Movimientos")]
     public MoveData[] knownMoves;
+
+    [Header("Al ganar el combate")]
+    [Tooltip("Deja esto VACÍO para volver al mapa por defecto. Escribe un nombre de escena SOLO si quieres ir a un sitio especial.")]
+    public string nextSceneName;
 }
