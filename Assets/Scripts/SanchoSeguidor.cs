@@ -7,6 +7,11 @@ public class SanchoSeguidor : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
 
+    // --- NUEVO: Arrastra aquí el objeto 'Canvas' o 'FondoNegro' del texto ---
+    [Header("Corrección Texto")]
+    public Transform textoFlotante; 
+    // -----------------------------------------------------------------------
+
     [Header("Movimiento")]
     public float velocidad = 2.5f;
     public float distanciaParaEmpezar = 3f;
@@ -43,21 +48,16 @@ public class SanchoSeguidor : MonoBehaviour
 
         if (estaSiguiendo)
         {
-            // 1. PRIORIDAD ABSOLUTA: EL SALTO
-            // Comprobamos si hay que saltar ANTES de decidir si parar o moverse.
-            // Si hay pared + suelo + Quijote está alto... SALTAMOS aunque estemos cerca.
             bool deboSaltar = enSuelo && HayObstaculoEnfrente() && objetivo.position.y > transform.position.y + 0.5f;
 
             if (deboSaltar)
             {
                 Saltar();
-                // Si estamos saltando, forzamos que se mueva hacia adelante para subir el escalón
                 MoverseHaciaObjetivo();
-                estaAndando = true; // Mantenemos el estado activo
+                estaAndando = true; 
             }
             else
             {
-                // 2. SI NO HAY QUE SALTAR, APLICAMOS LA LÓGICA DE CAMINAR/PARAR (ANTI-TEMBLEQUE)
                 if (estaAndando)
                 {
                     if (distancia <= distanciaMinima)
@@ -71,7 +71,6 @@ public class SanchoSeguidor : MonoBehaviour
                 }
                 else
                 {
-                    // Si está quieto, espera margen para arrancar
                     if (distancia > distanciaMinima + margenHolgura)
                     {
                         estaAndando = true; 
@@ -94,16 +93,12 @@ public class SanchoSeguidor : MonoBehaviour
     bool HayObstaculoEnfrente()
     {
         Vector2 direccion = mirandoDerecha ? Vector2.right : Vector2.left;
-        
-        // Rayo desde las rodillas
         Vector2 origenBajo = new Vector2(transform.position.x, transform.position.y - 0.5f); 
-
         return Physics2D.Raycast(origenBajo, direccion, distanciaDeteccionPared, capaSuelo);
     }
 
     void Saltar()
     {
-        // Solo saltamos si la velocidad vertical es casi 0 (para no hacer doble salto raro)
         if(Mathf.Abs(rb.linearVelocity.y) < 0.1f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0); 
@@ -118,6 +113,7 @@ public class SanchoSeguidor : MonoBehaviour
         if (animator != null) animator.SetBool("Caminando", false);
     }
 
+    // --- AQUÍ ESTÁ EL CAMBIO IMPORTANTE ---
     void GestionarGiro(float direccion)
     {
         if (Mathf.Abs(objetivo.position.x - transform.position.x) < 0.2f) return;
@@ -125,12 +121,23 @@ public class SanchoSeguidor : MonoBehaviour
         if ((direccion > 0 && !mirandoDerecha) || (direccion < 0 && mirandoDerecha))
         {
             mirandoDerecha = !mirandoDerecha;
+            
+            // 1. Giramos a Sancho
             Vector3 escala = transform.localScale;
             escala.x *= -1;
             transform.localScale = escala;
+
+            // 2. Giramos el texto al revés para que se lea bien
+            if (textoFlotante != null)
+            {
+                Vector3 escalaTexto = textoFlotante.localScale;
+                escalaTexto.x *= -1;
+                textoFlotante.localScale = escalaTexto;
+            }
         }
     }
-    
+    // --------------------------------------
+
     private void OnDrawGizmos()
     {
         if (detectorPies != null)

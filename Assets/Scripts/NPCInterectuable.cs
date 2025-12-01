@@ -6,7 +6,7 @@ public class NPCInteractuable : MonoBehaviour
     public GameObject avisoBoton; // El texto de "Pulsa E"
 
     [Header("Configuración")]
-    [TextArea] public string mensajeDelPastor = "¡Saludos! Cuidado con los molinos.";
+    [TextArea] public string mensajeDelPastor = "¡COMO TE ATREVES A MATAR MIS OVEJAS, LUCHA CONMIGO!";
     
     private bool jugadorEnRango = false;
     private BocadilloSimple miBocadillo; // Referencia a su propia voz
@@ -23,7 +23,6 @@ public class NPCInteractuable : MonoBehaviour
         {
             if (miBocadillo != null)
             {
-                // ¡HABLAAAAA!
                 miBocadillo.Hablar(mensajeDelPastor);
                 
                 // Opcional: Ocultar el "Pulsa E" mientras habla para que no moleste

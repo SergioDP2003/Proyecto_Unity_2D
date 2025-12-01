@@ -11664,7 +11664,7 @@ MonoBehaviour:
   groundRadius: 0.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   normalSpeed: 6
   normalGravity: 3
   waterSpeed: 2
@@ -15990,7 +15990,7 @@ GameObject:
   - component: {fileID: 2139053251}
   - component: {fileID: 2139053250}
   - component: {fileID: 2139053252}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

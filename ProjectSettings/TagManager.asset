@@ -4,24 +4,22 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Water
   - Mercader
-  - Rock
-  - Suelo
+  - Water
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
-  - Player
+  - Player1
   - Ground1
   - Wall
   - Sheep
-  - Player2
-  - TriggerText
-  - Carro
+  - Ground
+  - Fuego
+  - 
   - 
   - 
   - 
@@ -42,22 +40,8 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 199669983
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-<<<<<<< HEAD
-  - name: Foreground
-    uniqueID: 3305929155
-=======
-  - name: Background
-    uniqueID: 1644487185
-    locked: 0
-  - name: Personajes
-    uniqueID: 3343027165
->>>>>>> origin/dev
     locked: 0
   m_RenderingLayers:
   - Default
