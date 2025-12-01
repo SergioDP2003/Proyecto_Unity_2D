@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 3a4af478d8b86be4d8d7a68f2fbb2fcc
+guid: 1ca18786b9fa4fb46be3f309df67ad46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4915838280651684655
-    second: quijote-removebg-preview_0
+      213: -8358310988291161442
+    second: rocas-removebg-preview_0
   - first:
-      213: 5214175043387371927
-    second: quijote-removebg-preview_1
+      213: 5018033306136204702
+    second: rocas-removebg-preview_1
   - first:
-      213: -2288094660284019224
-    second: quijote-removebg-preview_2
+      213: 8064669803843230891
+    second: rocas-removebg-preview_2
   - first:
-      213: 5024532993299023748
-    second: quijote-removebg-preview_3
+      213: 7227359296674485282
+    second: rocas-removebg-preview_3
   - first:
-      213: -398636838379226167
-    second: quijote-removebg-preview_4
+      213: -6295591846784053362
+    second: rocas-removebg-preview_4
   - first:
-      213: -8719373754061549094
-    second: quijote-removebg-preview_5
+      213: -7161223866523534551
+    second: rocas-removebg-preview_5
   - first:
-      213: -9200146895960611970
-    second: quijote-removebg-preview_6
+      213: -800727869960426699
+    second: rocas-removebg-preview_6
   - first:
-      213: -4561441227819706907
-    second: quijote-removebg-preview_7
+      213: 6345099165576467603
+    second: rocas-removebg-preview_7
   - first:
-      213: 2783175607315595488
-    second: quijote-removebg-preview_8
+      213: 2115840598668328495
+    second: rocas-removebg-preview_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,199 +124,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quijote-removebg-preview_0
+      name: rocas-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 272
-        width: 101
-        height: 200
+        x: 24
+        y: 167
+        width: 51
+        height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d44d74012f67cbb0800000000000000
-      internalID: -4915838280651684655
+      spriteID: e9249acb070510c80800000000000000
+      internalID: -8358310988291161442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_1
+      name: rocas-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 272
-        width: 99
-        height: 192
+        x: 100
+        y: 169
+        width: 62
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 791bfc973987c5840800000000000000
-      internalID: 5214175043387371927
+      spriteID: e95d35b84b2a3a540800000000000000
+      internalID: 5018033306136204702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_2
+      name: rocas-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 272
-        width: 99
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ed8d41870e0f30e0800000000000000
-      internalID: -2288094660284019224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quijote-removebg-preview_3
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 272
-        width: 99
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48781d3e22abab540800000000000000
-      internalID: 5024532993299023748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quijote-removebg-preview_4
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 62
-        width: 102
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9cb750658e1c77af0800000000000000
-      internalID: -398636838379226167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quijote-removebg-preview_5
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 64
-        width: 100
-        height: 190
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad11c4594cf8ef680800000000000000
-      internalID: -8719373754061549094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quijote-removebg-preview_6
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 10
-        width: 43
+        x: 182
+        y: 169
+        width: 55
         height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e73ead08423825080800000000000000
-      internalID: -9200146895960611970
+      spriteID: bac15e845767bef60800000000000000
+      internalID: 8064669803843230891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_7
+      name: rocas-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 265
-        y: 63
-        width: 96
-        height: 200
+        x: 24
+        y: 96
+        width: 56
+        height: 57
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e51cffee5182b0c0800000000000000
-      internalID: -4561441227819706907
+      spriteID: 2245666fcfcbc4460800000000000000
+      internalID: 7227359296674485282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_8
+      name: rocas-removebg-preview_4
       rect:
         serializedVersion: 2
-        x: 369
-        y: 63
-        width: 90
-        height: 191
+        x: 102
+        y: 96
+        width: 52
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e0049d0873df9620800000000000000
-      internalID: 2783175607315595488
+      spriteID: e8f4791229091a8a0800000000000000
+      internalID: -6295591846784053362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocas-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 96
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bb0dec5d83e9c90800000000000000
+      internalID: -7161223866523534551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocas-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 19
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53be045ae3e33e4f0800000000000000
+      internalID: -800727869960426699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocas-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 17
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39410d4c2125e0850800000000000000
+      internalID: 6345099165576467603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocas-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 17
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2eb9f470d9fc5d10800000000000000
+      internalID: 2115840598668328495
       vertices: []
       indices: 
       edges: []
@@ -325,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c0f147a49c7b5a94b80cb729e1ac739d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -335,15 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      quijote-removebg-preview_0: -4915838280651684655
-      quijote-removebg-preview_1: 5214175043387371927
-      quijote-removebg-preview_2: -2288094660284019224
-      quijote-removebg-preview_3: 5024532993299023748
-      quijote-removebg-preview_4: -398636838379226167
-      quijote-removebg-preview_5: -8719373754061549094
-      quijote-removebg-preview_6: -9200146895960611970
-      quijote-removebg-preview_7: -4561441227819706907
-      quijote-removebg-preview_8: 2783175607315595488
+      rocas-removebg-preview_0: -8358310988291161442
+      rocas-removebg-preview_1: 5018033306136204702
+      rocas-removebg-preview_2: 8064669803843230891
+      rocas-removebg-preview_3: 7227359296674485282
+      rocas-removebg-preview_4: -6295591846784053362
+      rocas-removebg-preview_5: -7161223866523534551
+      rocas-removebg-preview_6: -800727869960426699
+      rocas-removebg-preview_7: 6345099165576467603
+      rocas-removebg-preview_8: 2115840598668328495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

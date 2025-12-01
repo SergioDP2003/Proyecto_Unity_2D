@@ -1,34 +1,31 @@
 fileFormatVersion: 2
-guid: 3a4af478d8b86be4d8d7a68f2fbb2fcc
+guid: e3566febeb4a03648aa9b1be17858845
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4915838280651684655
-    second: quijote-removebg-preview_0
+      213: 5910458323801076909
+    second: andar_quijote_0
   - first:
-      213: 5214175043387371927
-    second: quijote-removebg-preview_1
+      213: -8695976766908775787
+    second: andar_quijote_1
   - first:
-      213: -2288094660284019224
-    second: quijote-removebg-preview_2
+      213: 4116597764629646912
+    second: andar_quijote_2
   - first:
-      213: 5024532993299023748
-    second: quijote-removebg-preview_3
+      213: 9085764398484911684
+    second: andar_quijote_3
   - first:
-      213: -398636838379226167
-    second: quijote-removebg-preview_4
+      213: -4717437285594649275
+    second: andar_quijote_4
   - first:
-      213: -8719373754061549094
-    second: quijote-removebg-preview_5
+      213: 4644744018381618433
+    second: andar_quijote_5
   - first:
-      213: -9200146895960611970
-    second: quijote-removebg-preview_6
+      213: 7119418301184784563
+    second: andar_quijote_6
   - first:
-      213: -4561441227819706907
-    second: quijote-removebg-preview_7
-  - first:
-      213: 2783175607315595488
-    second: quijote-removebg-preview_8
+      213: 2239869993859722442
+    second: andar_quijote_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -124,199 +121,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quijote-removebg-preview_0
+      name: andar_quijote_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 272
-        width: 101
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 22
+        y: 271
+        width: 107
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d44d74012f67cbb0800000000000000
-      internalID: -4915838280651684655
+      spriteID: da4f9e1d78a260250800000000000000
+      internalID: 5910458323801076909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_1
+      name: andar_quijote_1
       rect:
         serializedVersion: 2
         x: 146
-        y: 272
-        width: 99
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 271
+        width: 98
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 791bfc973987c5840800000000000000
-      internalID: 5214175043387371927
+      spriteID: 5924a59243fa15780800000000000000
+      internalID: -8695976766908775787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_2
+      name: andar_quijote_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 272
-        width: 99
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 255
+        y: 274
+        width: 100
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ed8d41870e0f30e0800000000000000
-      internalID: -2288094660284019224
+      spriteID: 04ecae33bd7112930800000000000000
+      internalID: 4116597764629646912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_3
+      name: andar_quijote_3
       rect:
         serializedVersion: 2
         x: 367
         y: 272
-        width: 99
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 112
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48781d3e22abab540800000000000000
-      internalID: 5024532993299023748
+      spriteID: 446759cf49e171e70800000000000000
+      internalID: 9085764398484911684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_4
+      name: andar_quijote_4
       rect:
         serializedVersion: 2
-        x: 28
-        y: 62
-        width: 102
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9cb750658e1c77af0800000000000000
-      internalID: -398636838379226167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quijote-removebg-preview_5
-      rect:
-        serializedVersion: 2
-        x: 150
+        x: 6
         y: 64
+        width: 124
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54da2f568cb488eb0800000000000000
+      internalID: -4717437285594649275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar_quijote_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 62
+        width: 109
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10db1486312757040800000000000000
+      internalID: 4644744018381618433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andar_quijote_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 63
         width: 100
-        height: 190
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad11c4594cf8ef680800000000000000
-      internalID: -8719373754061549094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quijote-removebg-preview_6
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 10
-        width: 43
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e73ead08423825080800000000000000
-      internalID: -9200146895960611970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quijote-removebg-preview_7
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 63
-        width: 96
         height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e51cffee5182b0c0800000000000000
-      internalID: -4561441227819706907
+      spriteID: 3b8b88189314dc260800000000000000
+      internalID: 7119418301184784563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_8
+      name: andar_quijote_7
       rect:
         serializedVersion: 2
-        x: 369
-        y: 63
-        width: 90
-        height: 191
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 371
+        y: 61
+        width: 96
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e0049d0873df9620800000000000000
-      internalID: 2783175607315595488
+      spriteID: acca01f54ed951f10800000000000000
+      internalID: 2239869993859722442
       vertices: []
       indices: 
       edges: []
@@ -325,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c0f147a49c7b5a94b80cb729e1ac739d
+    spriteID: 55ca2c1efdde58e4399bb25ba0eebe81
     internalID: 0
     vertices: []
     indices: 
@@ -335,15 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      quijote-removebg-preview_0: -4915838280651684655
-      quijote-removebg-preview_1: 5214175043387371927
-      quijote-removebg-preview_2: -2288094660284019224
-      quijote-removebg-preview_3: 5024532993299023748
-      quijote-removebg-preview_4: -398636838379226167
-      quijote-removebg-preview_5: -8719373754061549094
-      quijote-removebg-preview_6: -9200146895960611970
-      quijote-removebg-preview_7: -4561441227819706907
-      quijote-removebg-preview_8: 2783175607315595488
+      andar_quijote_0: 5910458323801076909
+      andar_quijote_1: -8695976766908775787
+      andar_quijote_2: 4116597764629646912
+      andar_quijote_3: 9085764398484911684
+      andar_quijote_4: -4717437285594649275
+      andar_quijote_5: 4644744018381618433
+      andar_quijote_6: 7119418301184784563
+      andar_quijote_7: 2239869993859722442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

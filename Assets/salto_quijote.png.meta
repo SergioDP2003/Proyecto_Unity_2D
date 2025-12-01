@@ -1,34 +1,31 @@
 fileFormatVersion: 2
-guid: 3a4af478d8b86be4d8d7a68f2fbb2fcc
+guid: 6c6ac1937a3e6b84893ef0ca8b2a5339
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4915838280651684655
-    second: quijote-removebg-preview_0
+      213: 8738607285855693119
+    second: salto_quijote_0
   - first:
-      213: 5214175043387371927
-    second: quijote-removebg-preview_1
+      213: -7751389900529667513
+    second: salto_quijote_1
   - first:
-      213: -2288094660284019224
-    second: quijote-removebg-preview_2
+      213: 212131018635822686
+    second: salto_quijote_2
   - first:
-      213: 5024532993299023748
-    second: quijote-removebg-preview_3
+      213: 1280779701612987724
+    second: salto_quijote_3
   - first:
-      213: -398636838379226167
-    second: quijote-removebg-preview_4
+      213: -7290581169072570820
+    second: salto_quijote_4
   - first:
-      213: -8719373754061549094
-    second: quijote-removebg-preview_5
+      213: -9038299607074399719
+    second: salto_quijote_5
   - first:
-      213: -9200146895960611970
-    second: quijote-removebg-preview_6
+      213: 2243252543444257325
+    second: salto_quijote_6
   - first:
-      213: -4561441227819706907
-    second: quijote-removebg-preview_7
-  - first:
-      213: 2783175607315595488
-    second: quijote-removebg-preview_8
+      213: 7140418478757312200
+    second: salto_quijote_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -124,199 +121,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quijote-removebg-preview_0
+      name: salto_quijote_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 272
-        width: 101
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 19
+        y: 271
+        width: 123
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d44d74012f67cbb0800000000000000
-      internalID: -4915838280651684655
+      spriteID: f39a1110705c54970800000000000000
+      internalID: 8738607285855693119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_1
+      name: salto_quijote_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 85
+        width: 106
+        height: 169
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742f06f34f78d6490800000000000000
+      internalID: -7751389900529667513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salto_quijote_2
       rect:
         serializedVersion: 2
         x: 146
-        y: 272
-        width: 99
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 271
+        width: 98
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 791bfc973987c5840800000000000000
-      internalID: 5214175043387371927
+      spriteID: e5641ab9904a1f200800000000000000
+      internalID: 212131018635822686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_2
+      name: salto_quijote_3
       rect:
         serializedVersion: 2
-        x: 256
-        y: 272
-        width: 99
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 260
+        y: 287
+        width: 101
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ed8d41870e0f30e0800000000000000
-      internalID: -2288094660284019224
+      spriteID: c454c2e4a5e36c110800000000000000
+      internalID: 1280779701612987724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_3
+      name: salto_quijote_4
       rect:
         serializedVersion: 2
-        x: 367
-        y: 272
-        width: 99
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 365
+        y: 275
+        width: 110
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48781d3e22abab540800000000000000
-      internalID: 5024532993299023748
+      spriteID: c3ef64bcd07a2da90800000000000000
+      internalID: -7290581169072570820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_4
+      name: salto_quijote_5
       rect:
         serializedVersion: 2
-        x: 28
-        y: 62
-        width: 102
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9cb750658e1c77af0800000000000000
-      internalID: -398636838379226167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quijote-removebg-preview_5
-      rect:
-        serializedVersion: 2
-        x: 150
+        x: 32
         y: 64
-        width: 100
-        height: 190
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 101
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad11c4594cf8ef680800000000000000
-      internalID: -8719373754061549094
+      spriteID: 91a17c2f462819280800000000000000
+      internalID: -9038299607074399719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_6
+      name: salto_quijote_6
       rect:
         serializedVersion: 2
-        x: 229
-        y: 10
-        width: 43
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 259
+        y: 59
+        width: 99
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e73ead08423825080800000000000000
-      internalID: -9200146895960611970
+      spriteID: d2a8c719d42a12f10800000000000000
+      internalID: 2243252543444257325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_7
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 63
-        width: 96
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e51cffee5182b0c0800000000000000
-      internalID: -4561441227819706907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quijote-removebg-preview_8
+      name: salto_quijote_7
       rect:
         serializedVersion: 2
         x: 369
-        y: 63
-        width: 90
-        height: 191
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 59
+        width: 99
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e0049d0873df9620800000000000000
-      internalID: 2783175607315595488
+      spriteID: 8c6f6fd56ccd71360800000000000000
+      internalID: 7140418478757312200
       vertices: []
       indices: 
       edges: []
@@ -325,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c0f147a49c7b5a94b80cb729e1ac739d
+    spriteID: c783843bd7e7eb849b4d65c9eabbd63d
     internalID: 0
     vertices: []
     indices: 
@@ -335,15 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      quijote-removebg-preview_0: -4915838280651684655
-      quijote-removebg-preview_1: 5214175043387371927
-      quijote-removebg-preview_2: -2288094660284019224
-      quijote-removebg-preview_3: 5024532993299023748
-      quijote-removebg-preview_4: -398636838379226167
-      quijote-removebg-preview_5: -8719373754061549094
-      quijote-removebg-preview_6: -9200146895960611970
-      quijote-removebg-preview_7: -4561441227819706907
-      quijote-removebg-preview_8: 2783175607315595488
+      salto_quijote_0: 8738607285855693119
+      salto_quijote_1: -7751389900529667513
+      salto_quijote_2: 212131018635822686
+      salto_quijote_3: 1280779701612987724
+      salto_quijote_4: -7290581169072570820
+      salto_quijote_5: -9038299607074399719
+      salto_quijote_6: 2243252543444257325
+      salto_quijote_7: 7140418478757312200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

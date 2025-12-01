@@ -1,34 +1,10 @@
 fileFormatVersion: 2
-guid: 3a4af478d8b86be4d8d7a68f2fbb2fcc
+guid: 06cc9052edd09b34ca64fd47c1115232
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4915838280651684655
-    second: quijote-removebg-preview_0
-  - first:
-      213: 5214175043387371927
-    second: quijote-removebg-preview_1
-  - first:
-      213: -2288094660284019224
-    second: quijote-removebg-preview_2
-  - first:
-      213: 5024532993299023748
-    second: quijote-removebg-preview_3
-  - first:
-      213: -398636838379226167
-    second: quijote-removebg-preview_4
-  - first:
-      213: -8719373754061549094
-    second: quijote-removebg-preview_5
-  - first:
-      213: -9200146895960611970
-    second: quijote-removebg-preview_6
-  - first:
-      213: -4561441227819706907
-    second: quijote-removebg-preview_7
-  - first:
-      213: 2783175607315595488
-    second: quijote-removebg-preview_8
+      213: -1154712005815978160
+    second: sprite_medieval_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -124,199 +100,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quijote-removebg-preview_0
+      name: sprite_medieval_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 272
-        width: 101
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 52
+        y: 350
+        width: 355
+        height: 311
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d44d74012f67cbb0800000000000000
-      internalID: -4915838280651684655
+      spriteID: 057b5737c83a9ffe0800000000000000
+      internalID: -1154712005815978160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_1
+      name: sprite_medieval_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 272
-        width: 99
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 462
+        y: 350
+        width: 359
+        height: 311
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 791bfc973987c5840800000000000000
-      internalID: 5214175043387371927
+      spriteID: 5bd8c5bf4d4c06b4e8775480696bb7fe
+      internalID: -2081104779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_2
+      name: sprite_medieval_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 272
-        width: 99
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 905
+        y: 521
+        width: 131
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ed8d41870e0f30e0800000000000000
-      internalID: -2288094660284019224
+      spriteID: 975fe45d9222e6543a97898a8e85fd28
+      internalID: 67796699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_3
+      name: sprite_medieval_3
       rect:
         serializedVersion: 2
-        x: 367
-        y: 272
-        width: 99
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1098
+        y: 521
+        width: 131
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48781d3e22abab540800000000000000
-      internalID: 5024532993299023748
+      spriteID: c0764f5eb122bb94393fbf9f6fc7926d
+      internalID: 1064037854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_4
+      name: sprite_medieval_4
       rect:
         serializedVersion: 2
-        x: 28
-        y: 62
-        width: 102
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 863
+        y: 351
+        width: 322
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9cb750658e1c77af0800000000000000
-      internalID: -398636838379226167
+      spriteID: a19c9bdf09cbb8a4fbab31aa196c8eed
+      internalID: -1380244176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_5
+      name: sprite_medieval_5
       rect:
         serializedVersion: 2
-        x: 150
-        y: 64
-        width: 100
-        height: 190
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 41
+        y: 35
+        width: 286
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ad11c4594cf8ef680800000000000000
-      internalID: -8719373754061549094
+      spriteID: 879ec68ffffec7546afdad7b966774f7
+      internalID: -1211314672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_6
+      name: sprite_medieval_6
       rect:
         serializedVersion: 2
-        x: 229
-        y: 10
-        width: 43
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 371
+        y: 36
+        width: 302
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e73ead08423825080800000000000000
-      internalID: -9200146895960611970
+      spriteID: 8396a349478c9d04bb83309bb54c14b2
+      internalID: 2133089152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_7
+      name: sprite_medieval_7
       rect:
         serializedVersion: 2
-        x: 265
-        y: 63
-        width: 96
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 720
+        y: 185
+        width: 231
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5e51cffee5182b0c0800000000000000
-      internalID: -4561441227819706907
+      spriteID: adc3f4f057f234b4b9abb52ffb31b179
+      internalID: 884165663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quijote-removebg-preview_8
+      name: sprite_medieval_8
       rect:
         serializedVersion: 2
-        x: 369
-        y: 63
-        width: 90
-        height: 191
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1002
+        y: 36
+        width: 235
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0e0049d0873df9620800000000000000
-      internalID: 2783175607315595488
+      spriteID: 22c190bbc57d6d040b3cac97cb22ad58
+      internalID: 189220922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_medieval_9
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 36
+        width: 119
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff4098a3de59464f8ac89814494c672
+      internalID: -1457677575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_medieval_10
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 36
+        width: 114
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fabbdb9be9c4f04c8da2daaf6149eee
+      internalID: 530920083
       vertices: []
       indices: 
       edges: []
@@ -325,7 +345,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c0f147a49c7b5a94b80cb729e1ac739d
+    spriteID: 3010bf8650c1fcd40803789675cfe135
     internalID: 0
     vertices: []
     indices: 
@@ -333,17 +353,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      quijote-removebg-preview_0: -4915838280651684655
-      quijote-removebg-preview_1: 5214175043387371927
-      quijote-removebg-preview_2: -2288094660284019224
-      quijote-removebg-preview_3: 5024532993299023748
-      quijote-removebg-preview_4: -398636838379226167
-      quijote-removebg-preview_5: -8719373754061549094
-      quijote-removebg-preview_6: -9200146895960611970
-      quijote-removebg-preview_7: -4561441227819706907
-      quijote-removebg-preview_8: 2783175607315595488
+      sprite_medieval_0: -1154712005815978160
+      sprite_medieval_1: -2081104779
+      sprite_medieval_10: 530920083
+      sprite_medieval_2: 67796699
+      sprite_medieval_3: 1064037854
+      sprite_medieval_4: -1380244176
+      sprite_medieval_5: -1211314672
+      sprite_medieval_6: 2133089152
+      sprite_medieval_7: 884165663
+      sprite_medieval_8: 189220922
+      sprite_medieval_9: -1457677575
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

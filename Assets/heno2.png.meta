@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 50418cdf74079884c986a626d752bc08
+guid: 11fadfba8db227e4c94b12bcecc4bd46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1895378191201421490
-    second: pastor_0
+      213: 3845478700451077135
+    second: heno-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pastor_0
+      name: heno-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 515
-        height: 484
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 123
+        y: 129
+        width: 260
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b845993c6cbd4a10800000000000000
-      internalID: 1895378191201421490
+      spriteID: f0c97bbf082ed5530800000000000000
+      internalID: 3845478700451077135
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0ca8edb396856494ab6b03cf2b4f6ba9
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pastor_0: 1895378191201421490
+      heno-removebg-preview_0: 3845478700451077135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

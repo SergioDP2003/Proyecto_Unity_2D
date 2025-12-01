@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 50418cdf74079884c986a626d752bc08
+guid: 853bfe0cf01e89e478f40f93f2f7956b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1895378191201421490
-    second: pastor_0
+      213: 6888843587232249246
+    second: suelos2_0
+  - first:
+      213: 2210273528245232792
+    second: suelos2_1
+  - first:
+      213: 3104831742243158283
+    second: suelos2_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,10 +54,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pastor_0
+      name: suelos2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 515
-        height: 484
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2
+        y: 232
+        width: 246
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b845993c6cbd4a10800000000000000
-      internalID: 1895378191201421490
+      spriteID: e95b4327eb61a9f50800000000000000
+      internalID: 6888843587232249246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suelos2_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 122
+        width: 238
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 13, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894a18b30187cae10800000000000000
+      internalID: 2210273528245232792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suelos2_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 246
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09b2cbf404961b20800000000000000
+      internalID: 3104831742243158283
       vertices: []
       indices: 
       edges: []
@@ -125,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0ca8edb396856494ab6b03cf2b4f6ba9
+    spriteID: 894ff3ec26235ef42b3f6a3efa2cb0ff
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pastor_0: 1895378191201421490
+      suelos2_0: 6888843587232249246
+      suelos2_1: 2210273528245232792
+      suelos2_2: 3104831742243158283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
