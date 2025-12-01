@@ -1251,7 +1251,7 @@ GameObject:
   - component: {fileID: 149853004}
   - component: {fileID: 149853006}
   - component: {fileID: 149853005}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Ground-0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1472,7 +1472,7 @@ SpriteRenderer:
   m_Size: {x: 1.21, y: 0.81}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &175691868
@@ -1501,7 +1501,7 @@ GameObject:
   - component: {fileID: 178049314}
   - component: {fileID: 178049316}
   - component: {fileID: 178049315}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Ground-0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2589,7 +2589,7 @@ SpriteRenderer:
   m_Size: {x: 2.2, y: 3.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &384737537
@@ -4583,7 +4583,7 @@ SpriteRenderer:
   m_Size: {x: 5.15, y: 4.84}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &618201514
@@ -6963,7 +6963,7 @@ MonoBehaviour:
   groundCheckRadius: 0.25
   groundLayer:
     serializedVersion: 2
-    m_Bits: 136
+    m_Bits: 64
 --- !u!114 &1026609040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11303,7 +11303,7 @@ GameObject:
   - component: {fileID: 1806986961}
   - component: {fileID: 1806986963}
   - component: {fileID: 1806986962}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Ground-0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12098,7 +12098,7 @@ GameObject:
   - component: {fileID: 1896765614}
   - component: {fileID: 1896765613}
   - component: {fileID: 1896765615}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Ground-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
