@@ -214,9 +214,23 @@ public class TurnManager : MonoBehaviour
             
         yield return StartCoroutine(ShowDialogueSequence(finalReflexion));
 
-        // FASE 4: Fin real
-        Debug.Log("COMBATE TERMINADO - Cargando mapa...");
-        // SceneManager.LoadScene("TuEscenaDeMapa"); 
+        // FASE 4: Fin real y cambio de escena
+    Debug.Log("COMBATE TERMINADO - Cambiando de escena...");
+
+    // --- LÓGICA DE CAMBIO DE ESCENA INTELIGENTE ---
+    
+    // 1. ¿La ficha del enemigo tiene una escena especial asignada?
+    if (!string.IsNullOrEmpty(enemyUnit.characterData.nextSceneName))
+    {
+        // Sí tiene (ej: "Creditos" o "Final"), vamos allí.
+        SceneManager.LoadScene(enemyUnit.characterData.nextSceneName);
+    }
+    else
+    {
+        // 2. No tiene nada escrito (es un enemigo normal), volvemos al mapa.
+        // Asegúrate de poner aquí el nombre de tu escena de mapa principal.
+        SceneManager.LoadScene("MapaExploracion"); 
+    }
     }
 
     IEnumerator ShowDialogueSequence(string message)
