@@ -177,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6572928084102228531, guid: 688478d3c6327404abe6e72c94f311a0, type: 3}
+  m_Sprite: {fileID: 3421842135915365469, guid: d37bf1bb62f17ac49a4c1e1ccea18cd1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -582,7 +582,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -719.45044, y: 526.94586}
+  m_AnchoredPosition: {x: -735.2049, y: 513.9114}
   m_SizeDelta: {x: 1920, y: 710}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634473136
@@ -811,7 +811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1638419286}
-  - component: {fileID: 1638419285}
+  - component: {fileID: 1638419287}
   m_Layer: 0
   m_Name: SistemaDialogos
   m_TagString: Untagged
@@ -819,69 +819,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1638419285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1638419284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18d21ce74d1620b40bfe866aebfc4ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueMolino
-  dialogo:
-  - nombre: Quijote
-    texto: "He aqu\xED, Sancho\u2026 \xA1al fin lo hemos encontrado! El gigante que
-      vigila estas tierras."
-    cambiarFondo: 0
-  - nombre: Sancho
-    texto: "\xBFGigante? Pero se\xF1or\u2026 si yo lo que veo es un molino bien pintado,
-      con sus aspas dando vueltas tan tranquilas."
-    cambiarFondo: 0
-  - nombre: Quijote
-    texto: "No te dejes enga\xF1ar por su apariencia amable. \xA1Mira bien! \xBFNo
-      ves c\xF3mo mueve los brazos, desafi\xE1ndonos?"
-    cambiarFondo: 0
-  - nombre: Sancho
-    texto: "Yo lo que veo es que mueve las aspas porque hace viento, mi se\xF1or.
-      Y no parece que quiera desafiar a nadie."
-    cambiarFondo: 0
-  - nombre: Quijote
-    texto: "\xA1Ah, pobre Sancho! El enemigo sabe disfrazarse cuando conviene. Ese
-      colorido es solo un velo\u2026 una ilusi\xF3n para los simples ojos mortales."
-    cambiarFondo: 0
-  - nombre: Sancho
-    texto: "Pues ojal\xE1 mis ojos fueran tan ilusos como dice, porque yo sigo viendo
-      un molino y muy bonito, adem\xE1s."
-    cambiarFondo: 0
-  - nombre: Quijote
-    texto: "Observa ahora, Sancho\u2026 abre tu mente. Cuando uno mira con esp\xEDritu
-      caballeresco\u2026 la verdad se revela."
-    cambiarFondo: 0
-  - nombre: Quijote
-    texto: "\xA1Ah\xED est\xE1 su verdadera forma! \xA1Un coloso armado, dispuesto
-      a destruirnos si no actuamos primero!"
-    cambiarFondo: 1
-  - nombre: Sancho
-    texto: "Madre m\xEDa del amparo\u2026 \xA1pero qu\xE9 est\xE1 viendo usted, se\xF1or!
-      Juro que nada de eso aparece en mis ojos."
-    cambiarFondo: 0
-  - nombre: Quijote
-    texto: "No temas, leal escudero. Yo luchar\xE9. Si caigo, contin\xFAa mi legado.
-      \xA1Hoy, este gigante conocer\xE1 la fuerza de Don Quijote de la Mancha!"
-    cambiarFondo: 0
-  - nombre: Sancho
-    texto: "Ay, se\xF1or\u2026 ya sab\xEDa yo que de esta no sal\xEDamos con la ropa
-      limpia."
-    cambiarFondo: 0
-  nombreTexto: {fileID: 410390334}
-  dialogoTexto: {fileID: 2048616162}
-  fondo: {fileID: 73139348}
-  fondoNormal: {fileID: 6572928084102228531, guid: 688478d3c6327404abe6e72c94f311a0, type: 3}
-  fondoTenebroso: {fileID: 5887070217130652915, guid: 2ad3e142c971f0849bcf35dd98e9d8fe, type: 3}
-  velocidadTexto: 0.03
 --- !u!4 &1638419286
 Transform:
   m_ObjectHideFlags: 0
@@ -897,6 +834,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1638419287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638419284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77ac432961f6b44d8e4618000fa2373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueFinal
+  dialogo:
+  - nombre: Qujjote
+    texto: "\xA1Ah, Sancho! \xBFHas visto c\xF3mo aquel descomunal gigante ha ca\xEDdo
+      ante el filo de mi valerosa lanza? \xA1La justicia siempre triunfa cuando uno
+      obra con honor!"
+  - nombre: Sancho
+    texto: "Se\xF1or, si vuestra merced lo dice\u2026 pero a m\xED me sigue pareciendo
+      que aquello era m\xE1s molino que gigante. Aunque eso s\xED, ha quedao bien
+      vencido, no lo niego."
+  - nombre: Quijote
+    texto: "\xA1Ay, Sancho, buen amigo! Tus ojos a\xFAn no est\xE1n entrenados para
+      contemplar las maravillas del mundo caballeresco. Lo que para los simples mortales
+      es un molino, para nosotros se muestra en su verdadera y temible forma."
+  - nombre: Sancho
+    texto: "Pues si a m\xED me salen m\xE1s \u201Cverdaderas formas\u201D como esa,
+      mejor que me avise antes, que a\xFAn tengo la cabeza d\xE1ndome vueltas."
+  - nombre: Quijote
+    texto: "No temas, fiel escudero. Nuestro destino es grande, y esta batalla no
+      ha sido sino un peque\xF1o preludio. Tengo la certeza de que el camino nos
+      llevar\xE1 ahora hacia un magn\xEDfico castillo\u2026 uno lleno de misterios
+      y aventuras dignas de nuestra gesta."
+  - nombre: Sancho
+    texto: "\xBFUn castillo, dice? Con que tenga cama blanda y comida caliente, yo
+      ya me doy por servido, se\xF1or."
+  - nombre: Quijote
+    texto: "\xA1Oh, Sancho! No es un castillo cualquiera. Siento en mi pecho que
+      all\xED aguarda una nueva prueba de valor, quiz\xE1 un reino en desgracia o
+      una dama que clama por nuestra ayuda. Debemos prepararnos."
+  - nombre: Sancho
+    texto: "Pues que sea lo que Dios quiera\u2026 Pero si me permite, se\xF1or, antes
+      de entrar en m\xE1s castillos encantados, \xBFpodemos descansar un ratito?
+      Que no todos tenemos espalda de caballero."
+  - nombre: Quijote
+    texto: "Descansaremos lo justo, buen Sancho. Pues el honor nos llama, y un caballero
+      nunca ignora a su destino. \xA1En marcha hacia el castillo!"
+  - nombre: Sancho
+    texto: "All\xE1 vamos\u2026 aunque yo ir\xEDa m\xE1s contento si el castillo
+      no estuviera encantao."
+  nombreTexto: {fileID: 410390334}
+  dialogoTexto: {fileID: 2048616162}
+  velocidadEscritura: 0.03
 --- !u!1 &2048616160
 GameObject:
   m_ObjectHideFlags: 0

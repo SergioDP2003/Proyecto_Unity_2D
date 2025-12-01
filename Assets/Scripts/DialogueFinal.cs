@@ -3,16 +3,16 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class DialogueCampfire : MonoBehaviour
+public class DialogueFinal : MonoBehaviour
 {
     [System.Serializable]
-    public class LineaDialogoCampfire
+    public class LineaDialogoFinal
     {
         public string nombre;
         public string texto;
     }
 
-    public LineaDialogoCampfire[] dialogo;
+    public LineaDialogoFinal[] dialogo;
 
     public TMP_Text nombreTexto;
     public TMP_Text dialogoTexto;

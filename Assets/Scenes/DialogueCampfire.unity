@@ -149,7 +149,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 634473135}
   - {fileID: 1564507858}
   m_Father: {fileID: 1534905556}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -356,6 +355,7 @@ MonoBehaviour:
       que contar\xE1n de nosotros cuando venzamos a esos gigantes."
   nombreTexto: {fileID: 410390334}
   dialogoTexto: {fileID: 2048616162}
+  velocidadEscritura: 0.03
 --- !u!4 &248704655
 Transform:
   m_ObjectHideFlags: 0
@@ -669,18 +669,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634473134}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.14521813, y: 0.059539434, z: 0.14521813}
+  m_LocalScale: {x: 0.19065194, y: 0.25868747, z: 0.3343883}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 410390333}
-  m_Father: {fileID: 73139347}
+  m_Father: {fileID: 1564507858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -592, y: -244}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -739.14343, y: 521.88635}
+  m_SizeDelta: {x: 1920, y: 920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634473136
 MonoBehaviour:
@@ -853,6 +853,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2048616161}
+  - {fileID: 634473135}
   m_Father: {fileID: 73139347}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}

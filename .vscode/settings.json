@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Don Cojote.slnx"
+    "dotnet.defaultSolution": "Proyecto_Unity_2D.slnx"
 }
