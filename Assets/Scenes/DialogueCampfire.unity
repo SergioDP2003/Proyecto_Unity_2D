@@ -306,17 +306,17 @@ MonoBehaviour:
   dialogo:
   - nombre: Quijote
     texto: Sancho, buena faena hemos hecho hoy. Ese pastor ocultaba la fiereza de
-      un gigante encantado, lo supe desde el primer instante.
+      un caballero robusto, lo supe desde el primer instante.
   - nombre: Sancho
-    texto: "A la vista estaba, se\xF1or, que el \u201Cgigante\u201D ten\xEDa m\xE1s
+    texto: "A la vista estaba, se\xF1or, que el \u201Ccaballero\u201D ten\xEDa m\xE1s
       lana que malas intenciones. \xA1Si hasta me solt\xF3 un \u201Cbee\u201D antes
       de caer!"
   - nombre: Quijote
     texto: "Ejem\u2026 se\xF1ales inequ\xEDvocas de un hechizo poderoso. Los encantadores
       enemigos m\xEDos lo convirtieron en pastor para confundirme."
   - nombre: Sancho
-    texto: "Pues si lo encantaron, le sali\xF3 barato el conjuro. Que para ser gigante,
-      no era ni la mitad de peligroso que los molinos."
+    texto: "Pues si lo encantaron, le sali\xF3 barato el conjuro. Que para ser caballero,
+      no era ni la mitad de peligroso que los ni\xF1os."
   - nombre: Quijote
     texto: "Ay Sancho, no todo enemigo requiere tama\xF1o colosal para ser temible.
       La bravura nace en el esp\xEDritu."

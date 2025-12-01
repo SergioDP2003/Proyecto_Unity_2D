@@ -3,16 +3,16 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class DialogueFinal : MonoBehaviour
+public class DialogueNarrator : MonoBehaviour
 {
     [System.Serializable]
-    public class LineaDialogoFinal
+    public class LineaDialogoNarrator
     {
         public string nombre;
         public string texto;
     }
 
-    public LineaDialogoFinal[] dialogo;
+    public LineaDialogoNarrator[] dialogo;
 
     public TMP_Text nombreTexto;
     public TMP_Text dialogoTexto;
@@ -64,7 +64,7 @@ public class DialogueFinal : MonoBehaviour
         else
         {
             Debug.Log("Diálogo terminado");
-            SceneManager.LoadScene("Final");
+            SceneManager.LoadScene("Capitulo1");
         }
     }
 

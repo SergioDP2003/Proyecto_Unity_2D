@@ -210,7 +210,7 @@ public class TurnManager : MonoBehaviour
         // Diálogo final de realidad
         string finalReflexion = !string.IsNullOrEmpty(enemyUnit.characterData.realityDialogue) 
             ? enemyUnit.characterData.realityDialogue 
-            : "No eran gigantes... solo era mi imaginación.";
+            : "Por fin derroté al temible gigante";
             
         yield return StartCoroutine(ShowDialogueSequence(finalReflexion));
 
@@ -229,7 +229,7 @@ public class TurnManager : MonoBehaviour
     {
         // 2. No tiene nada escrito (es un enemigo normal), volvemos al mapa.
         // Asegúrate de poner aquí el nombre de tu escena de mapa principal.
-        SceneManager.LoadScene("MapaExploracion"); 
+        SceneManager.LoadScene("DialogueFinal"); 
     }
     }
 

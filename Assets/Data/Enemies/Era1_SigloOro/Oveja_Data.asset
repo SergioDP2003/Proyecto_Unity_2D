@@ -28,4 +28,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b4ae7d47b6d0c2f41a1daa8d89da792f, type: 2}
   - {fileID: 11400000, guid: 7c61460542fab464086c40cc35604fca, type: 2}
   - {fileID: 11400000, guid: 3bcf5cc2c4cc47542bfe992b9708909a, type: 2}
-  nextSceneName: Cap2Background
+  nextSceneName: DialogueCampfire

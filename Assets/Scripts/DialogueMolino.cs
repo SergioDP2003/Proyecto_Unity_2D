@@ -69,7 +69,7 @@ public class DialogueMolino : MonoBehaviour
         else
         {
             Debug.Log("Diálogo terminado");
-            SceneManager.LoadScene("Cap2Background");
+            SceneManager.LoadScene("Combate_Molino");
         }
     }
 
