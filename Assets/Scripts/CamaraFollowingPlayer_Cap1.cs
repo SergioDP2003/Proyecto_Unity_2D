@@ -10,7 +10,7 @@ public class CameraFollowingPlayer_Cap1 : MonoBehaviour
     {
         if (target == null) return;
 
-        offset = new Vector3(8.5f, 3f, -10f);
+        offset = new Vector3(0f, 3f, -10f);
 
         Vector3 desiredPosition = target.position + offset;
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
