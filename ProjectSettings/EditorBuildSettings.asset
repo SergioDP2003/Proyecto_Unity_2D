@@ -4,6 +4,36 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a47b4b1b708929840a0931b1955705e1
+  - enabled: 1
+    path: Assets/Scenes/DialogueNarrator.unity
+    guid: ec17b523e5226a04d9626e41905fb584
+  - enabled: 1
+    path: Assets/Scenes/Capitulo1.unity
+    guid: 63f79b74cfbacc94b88fbb7106d9ee14
+  - enabled: 1
+    path: Assets/Scenes/DialoguePreMolino.unity
+    guid: 2f81dab37ae568148add18305d4fa44e
+  - enabled: 1
+    path: Assets/Scenes/Cap2Background.unity
+    guid: 5f1cd449d2be3574887c71cd7d1fd84c
+  - enabled: 1
+    path: Assets/Scenes/Combate.unity
+    guid: b8dccf9116b48064db89bab27881d3c0
+  - enabled: 1
+    path: Assets/Scenes/Combate_Molino.unity
+    guid: 43d8880500f01d54aac77bf09d8c40cf
+  - enabled: 1
+    path: Assets/Scenes/DialogueCampfire.unity
+    guid: 6ef5e383d1499fa4bb40968d0f086b7e
+  - enabled: 1
+    path: Assets/Scenes/DialogueFinal.unity
+    guid: 1cd5823015fc2a745be32b684cb3aeab
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 607c262e7c3c9cc4286e08cff53ef2a9
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
