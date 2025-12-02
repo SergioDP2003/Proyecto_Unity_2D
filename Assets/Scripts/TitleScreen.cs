@@ -7,7 +7,7 @@ public class TitleScreen : MonoBehaviour
     public void PlayGame()
     {
         Debug.Log("Play pressed — cargando nueva escena...");
-        SceneManager.LoadScene("HomeScene");  
+        SceneManager.LoadScene("DialogueNarrator");  
     }
 
     // Botón Exit

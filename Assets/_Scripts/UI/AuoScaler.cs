@@ -1,61 +1,57 @@
 using UnityEngine;
 
+[ExecuteAlways] // ¡Truco! Esto hace que funcione incluso sin darle al Play
 [RequireComponent(typeof(SpriteRenderer))]
 public class AutoScaler : MonoBehaviour
 {
-    [Header("Configuración de Escalado")]
-    [Tooltip("Si está activado, la imagen se verá entera sin hacer zoom, pero pueden quedar bordes vacíos. Si está desactivado, hará zoom para cubrir toda la pantalla.")]
-    public bool fitToScreen = true; // <--- ¡LA NUEVA OPCIÓN! Por defecto la ponemos a True para evitar el zoom
-
     private SpriteRenderer spriteRenderer;
+    private float cameraHeight;
+    private float cameraWidth;
 
-    void Awake()
+    void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        FitToScreen();
+    }
+
+    // Esta función se ejecuta en cada fotograma del juego
+    void Update()
+    {
+        FitToScreen();
     }
 
     public void SetBackground(Sprite newSprite)
     {
-        if (newSprite == null) return;
-
-        // 1. Asignamos la nueva imagen
-        spriteRenderer.sprite = newSprite;
-
-        // 2. Reseteamos la escala
-        transform.localScale = Vector3.one;
-
-        // 3. Calculamos tamaño de la imagen
-        float width = spriteRenderer.bounds.size.x;
-        float height = spriteRenderer.bounds.size.y;
-
-        // 4. Calculamos tamaño de la pantalla
-        float worldScreenHeight = Camera.main.orthographicSize * 2f;
-        float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
-
-        // 5. Calculamos factores de estiramiento
-        float scaleX = worldScreenWidth / width;
-        float scaleY = worldScreenHeight / height;
-
-        // --- 6. ELEGIMOS EL MODO DE ESCALADO (AQUÍ ESTÁ LA MAGIA) ---
-        float finalScale;
-        if (fitToScreen)
+        if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
+        if (newSprite != null)
         {
-            // Modo "Ajustar" (Sin zoom exagerado): Usamos el factor más PEQUEÑO.
-            // Esto asegura que toda la imagen cabe en la pantalla.
-            finalScale = Mathf.Min(scaleX, scaleY);
+            spriteRenderer.sprite = newSprite;
+            FitToScreen();
         }
-        else
-        {
-            // Modo "Rellenar" (El de antes): Usamos el factor más GRANDE.
-            // Esto asegura que cubrimos toda la pantalla, aunque hagamos zoom.
-            finalScale = Mathf.Max(scaleX, scaleY);
-        }
-        // -----------------------------------------------------------
+    }
 
-        // 7. Aplicamos la escala
-        transform.localScale = new Vector3(finalScale, finalScale, 1f);
+    // La matemáticas para estirar la imagen
+    private void FitToScreen()
+    {
+        if (spriteRenderer == null || spriteRenderer.sprite == null) return;
 
-        // Centramos el fondo
-        transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, 10f);
+        // 1. Calculamos el tamaño que ve la cámara
+        cameraHeight = Camera.main.orthographicSize * 2;
+        Vector2 cameraSize = new Vector2(Camera.main.aspect * cameraHeight, cameraHeight);
+        
+        // 2. Cogemos el tamaño de la imagen
+        Vector2 spriteSize = spriteRenderer.sprite.bounds.size;
+
+        // 3. Calculamos la escala necesaria para cada eje
+        Vector2 scale = transform.localScale;
+        
+        // OPCIÓN: Rellenar pantalla (Zoom para que no queden huecos)
+        // Usamos el factor mayor para asegurarnos que cubrimos todo
+        float scaleFactorX = cameraSize.x / spriteSize.x;
+        float scaleFactorY = cameraSize.y / spriteSize.y;
+        
+        float finalScale = Mathf.Max(scaleFactorX, scaleFactorY);
+
+        transform.localScale = new Vector3(finalScale, finalScale, 1);
     }
 }
