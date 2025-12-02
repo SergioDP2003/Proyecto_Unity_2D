@@ -10,7 +10,7 @@ public class NPCInteractuable : MonoBehaviour
     [TextArea] public string mensajeDelPastor = "¡COMO TE ATREVES A MATAR MIS OVEJAS, LUCHA CONMIGO!";
     
     // 2. Aquí escribes el nombre de la escena de pelea en el Inspector
-    public string nombreEscenaBatalla = "Combate"; 
+    public string nombreEscenaBatalla = "DialogueCampfire"; 
     
     private bool jugadorEnRango = false;
     private BocadilloSimple miBocadillo; 

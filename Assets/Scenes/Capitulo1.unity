@@ -4508,7 +4508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCInteractuable
   avisoBoton: {fileID: 1587153115}
   mensajeDelPastor: "COMO TE ATREVES A MATAR MIS OVEJAS \xA1LUCHA CONMIGO!"
-  nombreEscenaBatalla: Combate
+  nombreEscenaBatalla: DialogueCampfire
 --- !u!58 &618201512
 CircleCollider2D:
   m_ObjectHideFlags: 0
